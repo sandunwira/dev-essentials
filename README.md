@@ -3,6 +3,62 @@ Contains resources for startup projects
 
 <hr>
 
+## Git and GitHub
+
+#### 1. `git config`
+Sets the username and email address for commits.
+```
+git config --global user.name "Your Name"
+git config --global user.email "youremail@mail.com"
+```
+
+#### 2. `git init`
+Initialize repository as git repository.
+```
+git init
+```
+
+#### 3. `git clone [url]`
+Clones repository from a server like GitHub, GitLab etc.
+```
+git clone https://github.com/username/repository.git
+```
+
+#### 4. `git status`
+Checks the current status of working tree.
+```
+git status
+```
+
+#### 5. `git add [Filename(s)]`
+Puts the unstage files to staging area.
+```
+// Add Specific Files
+git add index.html style.css script.js
+
+// Add Everything
+git add .
+```
+
+#### 6. `git commit -m [Message]`
+Records changes to the git repo by saving a log together with a commit ID
+```
+git commit -m "fixed bug"
+// Commit all files without a commit message
+git commit -a
+```
+
+#### 7. `git remote [options] [variable] [url]`
+Connects your local repository to the remote repository over a server.
+```
+git remote add origin https://github.com/username/repository.git
+```
+
+<hr>
+
+
+
+
 ### Public APIs:
 - https://github.com/marcelscruz/public-apis
 - https://www.jsonapi.co/public-api
