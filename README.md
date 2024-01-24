@@ -107,6 +107,7 @@ const canvas = document.createElement('canvas');
 canvas.width = 200;
 canvas.height = 100;
 document.body.appendChild(canvas);
+
 const ctx = canvas.getContext('2d');
 ctx.fillStyle = 'blue';
 ctx.fillRect(10, 10, 180, 80);
@@ -116,6 +117,7 @@ ctx.fillRect(10, 10, 180, 80);
 ```javascript
 const audioContext = new (window.AudioContext || window.webkitAudioContext)();
 const oscillator = audioContext.createOscillator();
+
 oscillator.frequency.setValueAtTime(440, audioContext.currentTime);
 oscillator.connect(audioContext.destination);
 oscillator.start();
@@ -125,6 +127,7 @@ oscillator.stop(audioContext.currentTime + 1);
 #### 7. Web Sockets API
 ```javascript
 const socket = new WebSocket('wss://example.com/socket');
+
 socket.addEventListener('open', () => socket.send('Hello, server!'));
 socket.addEventListener('message', event => console.log('Received: ', event.data));
 socket.addEventListener('close', () => console.log('Connection closed.'));
@@ -137,6 +140,7 @@ const dbName = "InstagramPostsDB";
 const dbVersion = 1;
 
 const request = indexedDB.open(dbName, dbVersion);
+
 // handles errors that may occur during the database opening process.
 request.onerror(() => {});
 // specifies the actions to be taken when the database structure is being upgraded.
@@ -149,13 +153,13 @@ request.onsuccess(() => {});
 ```javascript
 <input type="file" id="imageInput" accept="image/*">
 <button onclick="uploadPost()">Upload Post</button>
+
 <script>
   function uploadPost() {
     const file = document.getElementById('imageInput').files[0];
     console.log('Selected file:', file);
   }
 </script>
-
 ```
 
 #### 10. Web Notification API
@@ -185,9 +189,9 @@ const observer = new MutationObserver(mutations =>
     console.log('DOM change detected:', mutation)
   )
 );
-
 const targetNode = document.getElementById('yourElementId');
 const config = { attributes: true, childList: true, subtree: true };
+
 observer.observe(targetNode, config); // Start observing DOM changes.
 ```
 
@@ -210,6 +214,7 @@ navigator.getBattery().then(battery => {
 window.addEventListener("gamepadconnected", (event) => 
   console.log("Gamepad connected:", event.gamepad.id)
 );
+
 window.addEventListener("gamepaddisconnected", (event) => 
   console.log("Gamepad disconnected:", event.gamepad.id)
 );
