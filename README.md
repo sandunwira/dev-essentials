@@ -59,6 +59,203 @@ git remote add origin https://github.com/username/repository.git
 
 
 
+## JavaScript Web APIs
+
+#### 1. Web Speech API
+```javascript
+const textToSpeak = "Hello There";
+const utterance = new SpeechSynthesisUtterance(textToSpeak);
+
+window.speechSynthesis.speak(utterance);
+```
+
+#### 2. Web Storage API
+```javascript
+// Store Data
+localStorage.setItem('key', 'value');
+
+// Retrieve Data
+const storedValue = localStorage.getItem('key');
+
+// Remove Data
+localStorage.removeItem('key');
+```
+
+#### 3. Web Fetch API
+```javascript
+fetch('http://example.com/movies.json')
+  .then(response => response.json())
+  .then(data => console.log(data))
+  .catch(error => console.error('error:', error));
+```
+
+#### 4. Web Geolocation API
+```javascript
+navigator.geolocation.getCurrentPosition(
+  position => {
+    console.log(`Latitude: ${position.coords.latitude}, Longitude: ${position.coords.longitude}`);
+  },
+  error => {
+    console.error("Error getting location:", error.message);
+  }
+);
+```
+
+#### 5. Web Canvas API
+```javascript
+const canvas = document.createElement('canvas');
+canvas.width = 200;
+canvas.height = 100;
+document.body.appendChild(canvas);
+const ctx = canvas.getContext('2d');
+ctx.fillStyle = 'blue';
+ctx.fillRect(10, 10, 180, 80);
+```
+
+#### 6. Web Audio API
+```javascript
+const audioContext = new (window.AudioContext || window.webkitAudioContext)();
+const oscillator = audioContext.createOscillator();
+oscillator.frequency.setValueAtTime(440, audioContext.currentTime);
+oscillator.connect(audioContext.destination);
+oscillator.start();
+oscillator.stop(audioContext.currentTime + 1);
+```
+
+#### 7. Web Sockets API
+```javascript
+const socket = new WebSocket('wss://example.com/socket');
+socket.addEventListener('open', () => socket.send('Hello, server!'));
+socket.addEventListener('message', event => console.log('Received: ', event.data));
+socket.addEventListener('close', () => console.log('Connection closed.'));
+```
+
+#### 8. Web IndexedDB API
+```javascript
+// Open (or create) the database
+const dbName = "InstagramPostsDB";
+const dbVersion = 1;
+
+const request = indexedDB.open(dbName, dbVersion);
+// handles errors that may occur during the database opening process.
+request.onerror(() => {});
+// specifies the actions to be taken when the database structure is being upgraded.
+request.onupgradeneeded(() => {});
+// defines the actions to be taken upon successful opening of the database.
+request.onsuccess(() => {});
+```
+
+#### 9. Web File API
+```javascript
+<input type="file" id="imageInput" accept="image/*">
+<button onclick="uploadPost()">Upload Post</button>
+<script>
+  function uploadPost() {
+    const file = document.getElementById('imageInput').files[0];
+    console.log('Selected file:', file);
+  }
+</script>
+
+```
+
+#### 10. Web Notification API
+```javascript
+Notification.requestPermission()
+  .then( permission => {
+    new Notification('Hello, World!');
+  });
+```
+
+#### 11. Web Workers API
+```javascript
+const worker = new Worker('worker.js');
+worker.postMessage('Hello from main script!');
+```
+
+#### 12. Web Intersection Observer API
+```javascript
+const observer = new IntersectionObserver(entries => entries.forEach( entry => entry.isIntersecting && console.log('Element is in the viewport!') ) );
+observer.observe(document.getElementById('yourElementId'));
+```
+
+#### 13. Web Mutation Observer API
+```javascript
+const observer = new MutationObserver(mutations =>
+  mutations.forEach(mutation =>
+    console.log('DOM change detected:', mutation)
+  )
+);
+
+const targetNode = document.getElementById('yourElementId');
+const config = { attributes: true, childList: true, subtree: true };
+observer.observe(targetNode, config); // Start observing DOM changes.
+```
+
+#### 14. Web Pointer Lock API
+```javascript
+const element = document.getElementById('yourElementId');
+element.requestPointerLock();
+```
+
+#### 15. Web Battery Status API
+```javascript
+navigator.getBattery().then(battery => {
+  console.log('Battery Level:', battery.level * 100 + '%');
+  console.log('Charging:', battery.charging ? 'Yes' : 'No');
+});
+```
+
+#### 16. Web Gamepad API
+```javascript
+window.addEventListener("gamepadconnected", (event) => 
+  console.log("Gamepad connected:", event.gamepad.id)
+);
+window.addEventListener("gamepaddisconnected", (event) => 
+  console.log("Gamepad disconnected:", event.gamepad.id)
+);
+
+```
+
+#### 17. Web Device Orientation and Motion API
+```javascript
+window.addEventListener("deviceorientation", (event) => {
+  console.log("Device Orientation:", event.alpha, event.beta, event.gamma);
+});
+
+window.addEventListener("devicemotion", (event) => {
+  console.log("Device Motion:", event.acceleration.x, event.acceleration.y, event.acceleration.z);
+});
+```
+
+#### 18. Web Push API
+```javascript
+// Check for Push API support
+if ('PushManager' in window) {
+  // Request notification permission
+  Notification.requestPermission().then(permission => {
+    if (permission === 'granted') {
+      // Subscription logic goes here
+    }
+  });
+}
+```
+
+#### 19. Web Payment Request API
+```javascript
+const supportedInstruments = [{ supportedMethods: 'basic-card' }];
+const paymentDetails = { total: { label: 'Total', amount: { currency: 'USD', value: '10.00' } } };
+const paymentPromise = new PaymentRequest(supportedInstruments, paymentDetails);
+
+paymentPromise.show().then(paymentResponse =>
+  paymentResponse.complete('success')
+);
+```
+
+<hr>
+
+
+
+
 ### Public APIs:
 - https://github.com/marcelscruz/public-apis
 - https://www.jsonapi.co/public-api
