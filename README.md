@@ -209,6 +209,29 @@ paymentPromise.show().then(paymentResponse =>
 
 ### UI/UX Design:
 
+<table>
+  <tr>
+    <th>Mockups</th>
+    <th>3D</th>
+    <th>Widgets</th>
+    <th>Grid Layout</th>
+    <th>Typography</th>
+    <th>Accessibility</th>
+    <th>Animation</th>
+    <th>Others</th>
+  </tr>
+  <tr>
+    <td><a href="https://www.figma.com/community/plugin/817043359134136295">Mockup</a></td>
+    <td><a href="https://www.figma.com/community/plugin/1260632020336566834">Simple3D</a></td>
+    <td><a href="https://www.figma.com/community/widget/1099808304417613104">Navigate</a></td>
+    <td><a href="https://www.figma.com/community/plugin/983672137155100557">Token Space 8</a></td>
+    <td><a href="https://www.figma.com/community/plugin/739825414752646970">Typescales</a></td>
+    <td><a href="https://www.figma.com/community/plugin/733159460536249875">A11y</a></td>
+    <td><a href="https://www.figma.com/community/plugin/1077659774432109711">SVG Motion</a></td>
+    <td><a href="https://www.figma.com/community/plugin/739659977030056719">Avatars</a></td>
+  </tr>
+</table>
+
 - [x] [Figma Web](https://www.figma.com)
 - [x] [Figma App](https://desktop.figma.com/win/FigmaSetup.exe)
 
