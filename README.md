@@ -330,10 +330,10 @@ paymentPromise.show().then(paymentResponse =>
 | --- | --- | --- | --- | --- | --- | --- |
 | [Tailwind CSS](https://tailwindcss.com) | [Google Fonts](https://fonts.google.com) | [Font Awesome](https://fontawesome.com/search?o=r&m=free) | [Unsplash](https://unsplash.com) | [Ginger Grammer Checker](https://www.gingersoftware.com/grammarcheck) | [Google Bard](https://bard.google.com/chat) | [Supabase](https://github.com/supabase/supabase) |
 | [Bootstrap](https://getbootstrap.com/docs/5.1/getting-started/introduction) | [WhatTheFont](https://www.myfonts.com/pages/whatthefont) | [Simple Icons](https://github.com/simple-icons/simple-icons) | [Freepik](https://www.freepik.com) | [Quillbot Grammar Checker](https://quillbot.com/grammar-check) | [ChatGPT](https://chat.openai.com) | ... |
-| [CSS Loaders](https://css-loaders.com) | [IconMonstr](https://iconmonstr.com) | [IconMonstr](https://iconmonstr.com) | [Shields.io](https://shields.io) | ... | [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot) | ... |
-| ... | [Icons8](https://icons8.com) | [Icons8](https://icons8.com) | [Mesh Gradient](https://meshgradient.in) | ... | [Kive.ai](https://kive.ai) | ... |
-| ... | [Vector Logo Zone](https://www.vectorlogo.zone/logos/index.html) | [World Vector Logo](https://worldvectorlogo.com) | ... | ... | [tl;dv](https://tldv.io) | ... |
-| ... | ... | ... | ... | ... | [Playground.ai](https://playgroundai.com) | ... |
+| [CSS Loaders](https://css-loaders.com) | ... | [IconMonstr](https://iconmonstr.com) | [Shields.io](https://shields.io) | ... | [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot) | ... |
+| ... | ... | [Icons8](https://icons8.com) | [Mesh Gradient](https://meshgradient.in) | ... | [Kive.ai](https://kive.ai) | ... |
+| ... | ... | [World Vector Logo](https://worldvectorlogo.com) | ... | ... | [tl;dv](https://tldv.io) | ... |
+| ... | ... | [Vector Logo Zone](https://www.vectorlogo.zone/logos/index.html) | ... | ... | [Playground.ai](https://playgroundai.com) | ... |
 | ... | ... | ... | ... | ... | [Beautiful.ai](https://www.beautiful.ai) | ... |
 | ... | ... | ... | ... | ... | [Generated Photos](https://generated.photos) | ... |
 | ... | ... | ... | ... | ... | [Leonardo.ai](https://app.leonardo.ai) | ... |
