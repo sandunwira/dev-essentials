@@ -324,7 +324,8 @@ Others
 
 
 ## GitHub Student Developer Pack
-- [x] [Apply](https://education.github.com/pack)
+- [x] [Benefits](https://education.github.com/pack)
+- [x] [Apply Here](https://education.github.com/discount_requests/application)
 
 <hr>
 
@@ -391,11 +392,11 @@ Extensions
 
 
 ### Frameworks / Toolkits:
-- [x] https://github.com/tailwindlabs/tailwindcss
-- [x] https://github.com/twbs/bootstrap
-- [x] https://github.com/FortAwesome/Font-Awesome
-- [x] https://github.com/simple-icons/simple-icons
-- [x] https://github.com/supabase/supabase
+- [x] [Tailwind CSS](https://github.com/tailwindlabs/tailwindcss)
+- [x] [Bootstrap](https://github.com/twbs/bootstrap)
+- [x] [Font Awesome](https://github.com/FortAwesome/Font-Awesome)
+- [x] [Simple Icons](https://github.com/simple-icons/simple-icons)
+- [x] [Supabase](https://github.com/supabase/supabase)
 
 <hr>
 
