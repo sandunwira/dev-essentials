@@ -209,6 +209,9 @@ paymentPromise.show().then(paymentResponse =>
 
 ### UI/UX Design:
 
+- [x] [Figma Web](https://www.figma.com)
+- [x] [Figma App](https://desktop.figma.com/win/FigmaSetup.exe)
+
 | Mockups | 3D | Widgets | Grid Layout | Typography | Accessibility | Animation | Others |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | [Mockup](https://www.figma.com/community/plugin/817043359134136295) | [Simple3D](https://www.figma.com/community/plugin/1260632020336566834) | [Navigate](https://www.figma.com/community/widget/1099808304417613104) | [Token Space 8](https://www.figma.com/community/plugin/983672137155100557) | [Typescales](https://www.figma.com/community/plugin/739825414752646970) | [A11y](https://www.figma.com/community/plugin/733159460536249875) | [SVG Motion](https://www.figma.com/community/plugin/1077659774432109711) | [Avatars](https://www.figma.com/community/plugin/739659977030056719) |
@@ -220,88 +223,6 @@ paymentPromise.show().then(paymentResponse =>
 | [Rotato 3D Mockups + Explosions](https://www.figma.com/community/plugin/1009741687635558607) | [Fast Isometric](https://www.figma.com/community/plugin/1249759048471403961) | [Calculator](https://www.figma.com/community/widget/1117624863659822884) | [Figma to Bootstrap 5](https://www.figma.com/community/plugin/1287660587112027215) | [Aa Scale](https://www.figma.com/community/plugin/1242946360312220414) | [Low Vision](https://www.figma.com/community/plugin/940423402083252469) | [Beatflyer](https://www.figma.com/community/plugin/776923340646658146) | ... |
 | [Easy Mockup](https://www.figma.com/community/plugin/1180592708021765520) | [3D Wave](https://www.figma.com/community/plugin/1026141971534783843) | [Asana](https://www.figma.com/community/widget/1098405969270214551) | [Layout Grid Visualizer](https://www.figma.com/community/plugin/831003768229656707) | ... | [Able](https://www.figma.com/community/plugin/734693888346260052) | [Blazy](https://www.figma.com/community/plugin/1278086746813211814) | ... |
 | [A Little Bit Mockup](https://www.figma.com/community/plugin/1149987037748021167) | ... | ... | ... | ... | ... | ... | ... |
-
-
-
-- [x] [Figma Web](https://www.figma.com)
-- [x] [Figma App](https://desktop.figma.com/win/FigmaSetup.exe)
-
-##### Mockups:
-- [x] [Mockup](https://www.figma.com/community/plugin/817043359134136295)
-- [x] [Mockuuups Studio](https://www.figma.com/community/plugin/786250770157843670)
-- [x] [Artboard Studio Mockups](https://www.figma.com/community/plugin/750673765607708804)
-- [x] [Angle Mockups](https://www.figma.com/community/plugin/778645840235495725)
-- [x] [MockRocket – 3D Mockups](https://www.figma.com/community/plugin/1051242643585430631)
-- [x] [Clay Mockups 3D](https://www.figma.com/community/plugin/819335598581469537)
-- [x] [Rotato 3D Mockups + Explosions](https://www.figma.com/community/plugin/1009741687635558607)
-- [x] [Easy Mockup](https://www.figma.com/community/plugin/1180592708021765520)
-- [x] [A Little Bit Mockup](https://www.figma.com/community/plugin/1149987037748021167)
-
-##### 3D:
-- [x] [Simple3D](https://www.figma.com/community/plugin/1260632020336566834)
-- [x] [Oblique](https://www.figma.com/community/plugin/876352455198080607)
-- [x] [Vector to 3D](https://www.figma.com/community/plugin/1264600219316901594)
-- [x] [3D Shape Generator](https://www.figma.com/community/plugin/1224199081556506234)
-- [x] [Globe 3D](https://www.figma.com/community/plugin/977567760148608604)
-- [x] [Fig3D](https://www.figma.com/community/plugin/946020080871644950)
-- [x] [Fast Isometric](https://www.figma.com/community/plugin/1249759048471403961)
-- [x] [3D Wave](https://www.figma.com/community/plugin/1026141971534783843)
-
-##### Widgets:
-- [x] [Navigate](https://www.figma.com/community/widget/1099808304417613104)
-- [x] [Simple Vote](https://www.figma.com/community/widget/1031261785662682451)
-- [x] [Activity Tracker](https://www.figma.com/community/widget/1026880323669555103)
-- [x] [Import PDF](https://www.figma.com/community/widget/1064675123479620100)
-- [x] [Voice Memo](https://www.figma.com/community/widget/1100947233945489758)
-- [x] [Photo Booth](https://www.figma.com/community/widget/1030479012894344777)
-- [x] [Calculator](https://www.figma.com/community/widget/1117624863659822884)
-- [x] [Asana](https://www.figma.com/community/widget/1098405969270214551)
-
-##### Grid Layout:
-- [x] [Token Space 8](https://www.figma.com/community/plugin/983672137155100557)
-- [x] [Auto Layout Grids](https://www.figma.com/community/plugin/1017842387720709543)
-- [x] [Grid System](https://www.figma.com/community/plugin/1033367904576323011)
-- [x] [Grids Generator](https://www.figma.com/community/plugin/841313026689642442)
-- [x] [12 Column Grid](https://www.figma.com/community/plugin/1235599430244558186)
-- [x] [AutoGrid](https://www.figma.com/community/plugin/817474150404549708)
-- [x] [Figma to Bootstrap 5](https://www.figma.com/community/plugin/1287660587112027215)
-- [x] [Layout Grid Visualizer](https://www.figma.com/community/plugin/831003768229656707)
-
-##### Typography:
-- [x] [Typescales](https://www.figma.com/community/plugin/739825414752646970)
-- [x] [Typestyles](https://www.figma.com/community/plugin/803311677045533625)
-- [x] [Textyles](https://www.figma.com/community/plugin/804843548882105498)
-- [x] [Typescale](https://www.figma.com/community/plugin/967802396210455992)
-- [x] [Text Styles Generator](https://www.figma.com/community/plugin/759472336242530542)
-- [x] [Variable Fonts](https://www.figma.com/community/plugin/966184368629063440)
-- [x] [Aa Scale](https://www.figma.com/community/plugin/1242946360312220414)
-
-##### Accessibility:
-- [x] [A11y](https://www.figma.com/community/plugin/733159460536249875)
-- [x] [Color Blind](https://www.figma.com/community/plugin/733343906244951586)
-- [x] [Stark](https://www.figma.com/community/plugin/732603254453395948)
-- [x] [Contrast](https://www.figma.com/community/plugin/748533339900865323)
-- [x] [Text Resizer](https://www.figma.com/community/plugin/892114953056389734)
-- [x] [Adee](https://www.figma.com/community/plugin/931280467863251825)
-- [x] [Low Vision](https://www.figma.com/community/plugin/940423402083252469)
-- [x] [Able](https://www.figma.com/community/plugin/734693888346260052)
-
-##### Animation:
-- [x] [SVG Motion](https://www.figma.com/community/plugin/1077659774432109711)
-- [x] [LottieFiles](https://www.figma.com/community/plugin/809860933081065308)
-- [x] [Motion](https://www.figma.com/community/plugin/889777319208467032)
-- [x] [Parallax](https://www.figma.com/community/plugin/1166980815207476504)
-- [x] [Figmotion](https://www.figma.com/community/plugin/733025261168520714)
-- [x] [Physics Animation](https://www.figma.com/community/plugin/1051790240828992953)
-- [x] [Beatflyer](https://www.figma.com/community/plugin/776923340646658146)
-- [x] [Blazy](https://www.figma.com/community/plugin/1278086746813211814)
-
-##### Others:
-- [x] [Avatars](https://www.figma.com/community/plugin/739659977030056719)
-- [x] [EOS Icons](https://www.figma.com/community/plugin/1131638845835688020)
-- [x] [Export Images](https://www.figma.com/community/plugin/1073791321657719341)
-- [x] [Mesh Gradient](https://www.figma.com/community/plugin/958202093377483021)
-- [x] [Simple Icons](https://www.figma.com/community/plugin/1149614463603005908)
 
 <hr>
 
