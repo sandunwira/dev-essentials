@@ -346,24 +346,11 @@ paymentPromise.show().then(paymentResponse =>
 
 ### Optimization:
 
-##### Images
-- [x] [postimages](https://postimages.org)
-- [x] [imgbb](https://imgbb.com)
-- [x] [tinypng](https://tinypng.com)
-
-##### Performance
-- [x] [pagespeed](https://pagespeed.web.dev)
-
-##### Analytics
-- [x] [Google Analytics](https://analytics.google.com/analytics/web)
-
-##### SEO
-- [x] [Google Search Console](https://search.google.com/search-console/welcome)
-- [x] [Bing Webmasters](https://www.bing.com/webmasters)
-
-##### Meta Tags
-- [x] [Social Share Preview](https://socialsharepreview.com)
-- [x] [MetaTags.io](https://metatags.io)
+| Images | Performance | Analytics | SEO | Meta Tags |
+| --- | --- | --- | --- | --- |
+| [postimages](https://postimages.org) | [pagespeed](https://pagespeed.web.dev) | [Google Analytics](https://analytics.google.com/analytics/web) | [Google Search Console](https://search.google.com/search-console/welcome) | [Social Share Preview](https://socialsharepreview.com) |
+| [imgbb](https://imgbb.com) | ... | ... | [Bing Webmasters](https://www.bing.com/webmasters) | [MetaTags.io](https://metatags.io) |
+| [tinypng](https://tinypng.com) | ... | ... | ... | ... |
 
 <hr>
 
