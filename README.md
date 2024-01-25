@@ -63,6 +63,7 @@ const utterance = new SpeechSynthesisUtterance(textToSpeak);
 
 window.speechSynthesis.speak(utterance);
 ```
+[MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API)
 
 #### 2. Web Storage API
 ```javascript
@@ -75,6 +76,7 @@ const storedValue = localStorage.getItem('key');
 // Remove Data
 localStorage.removeItem('key');
 ```
+[MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API)
 
 #### 3. Web Fetch API
 ```javascript
@@ -83,6 +85,7 @@ fetch('http://example.com/movies.json')
   .then(data => console.log(data))
   .catch(error => console.error('error:', error));
 ```
+[MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
 
 #### 4. Web Geolocation API
 ```javascript
@@ -95,6 +98,7 @@ navigator.geolocation.getCurrentPosition(
   }
 );
 ```
+[MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API)
 
 #### 5. Web Canvas API
 ```javascript
@@ -107,6 +111,7 @@ const ctx = canvas.getContext('2d');
 ctx.fillStyle = 'blue';
 ctx.fillRect(10, 10, 180, 80);
 ```
+[MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API)
 
 #### 6. Web Audio API
 ```javascript
@@ -118,6 +123,7 @@ oscillator.connect(audioContext.destination);
 oscillator.start();
 oscillator.stop(audioContext.currentTime + 1);
 ```
+[MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API)
 
 #### 7. Web Sockets API
 ```javascript
@@ -127,6 +133,7 @@ socket.addEventListener('open', () => socket.send('Hello, server!'));
 socket.addEventListener('message', event => console.log('Received: ', event.data));
 socket.addEventListener('close', () => console.log('Connection closed.'));
 ```
+[MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/API/WebSocket)
 
 #### 8. Web IndexedDB API
 ```javascript
@@ -143,6 +150,7 @@ request.onupgradeneeded(() => {});
 // defines the actions to be taken upon successful opening of the database.
 request.onsuccess(() => {});
 ```
+[MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API)
 
 #### 9. Web File API
 ```javascript
@@ -156,6 +164,7 @@ request.onsuccess(() => {});
   }
 </script>
 ```
+[MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/API/File_API)
 
 #### 10. Web Notification API
 ```javascript
@@ -164,18 +173,21 @@ Notification.requestPermission()
     new Notification('Hello, World!');
   });
 ```
+[MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/API/Notifications_API)
 
 #### 11. Web Workers API
 ```javascript
 const worker = new Worker('worker.js');
 worker.postMessage('Hello from main script!');
 ```
+[MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API)
 
 #### 12. Web Intersection Observer API
 ```javascript
 const observer = new IntersectionObserver(entries => entries.forEach( entry => entry.isIntersecting && console.log('Element is in the viewport!') ) );
 observer.observe(document.getElementById('yourElementId'));
 ```
+[MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API)
 
 #### 13. Web Mutation Observer API
 ```javascript
@@ -189,12 +201,14 @@ const config = { attributes: true, childList: true, subtree: true };
 
 observer.observe(targetNode, config); // Start observing DOM changes.
 ```
+[MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver)
 
 #### 14. Web Pointer Lock API
 ```javascript
 const element = document.getElementById('yourElementId');
 element.requestPointerLock();
 ```
+[MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/API/Pointer_Lock_API)
 
 #### 15. Web Battery Status API
 ```javascript
@@ -203,6 +217,7 @@ navigator.getBattery().then(battery => {
   console.log('Charging:', battery.charging ? 'Yes' : 'No');
 });
 ```
+[MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/API/Battery_Status_API)
 
 #### 16. Web Gamepad API
 ```javascript
@@ -213,8 +228,8 @@ window.addEventListener("gamepadconnected", (event) =>
 window.addEventListener("gamepaddisconnected", (event) => 
   console.log("Gamepad disconnected:", event.gamepad.id)
 );
-
 ```
+[MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/API/Gamepad_API)
 
 #### 17. Web Device Orientation and Motion API
 ```javascript
@@ -226,6 +241,7 @@ window.addEventListener("devicemotion", (event) => {
   console.log("Device Motion:", event.acceleration.x, event.acceleration.y, event.acceleration.z);
 });
 ```
+[MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/API/Device_orientation_events)
 
 #### 18. Web Push API
 ```javascript
@@ -239,6 +255,7 @@ if ('PushManager' in window) {
   });
 }
 ```
+[MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/API/Push_API)
 
 #### 19. Web Payment Request API
 ```javascript
@@ -250,6 +267,7 @@ paymentPromise.show().then(paymentResponse =>
   paymentResponse.complete('success')
 );
 ```
+[MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/API/Payment_Request_API)
 
 <hr>
 
