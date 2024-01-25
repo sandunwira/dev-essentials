@@ -294,7 +294,7 @@ paymentPromise.show().then(paymentResponse =>
 
 
 
-#### APIs:
+### APIs:
 - [x] https://github.com/marcelscruz/public-apis
 - [x] https://www.jsonapi.co/public-api
 - [x] https://any-api.com
