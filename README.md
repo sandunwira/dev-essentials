@@ -298,37 +298,26 @@ paymentPromise.show().then(paymentResponse =>
 
 ### Courses and Learning Materials:
 
-##### LinkedIn Learning:
-- [x] [Linux](https://www.linkedin.com/learning/topics/linux-2)
-- [x] [Project Management](https://www.linkedin.com/learning/topics/project-management)
-- [x] [Professional Development](https://www.linkedin.com/learning/topics/professional-development)
-- [x] [Web Development](https://www.linkedin.com/learning/topics/web-development)
-- [x] [Git](https://www.linkedin.com/learning/topics/git)
-- [x] [APIs](https://www.linkedin.com/learning/topics/apis)
-- [x] [AWS](https://www.linkedin.com/learning/topics/amazon-web-services)
-- [x] [SQL](https://www.linkedin.com/learning/topics/sql)
-- [x] [Python](https://www.linkedin.com/learning/topics/python)
-- [x] [JavaScript](https://www.linkedin.com/learning/topics/javascript)
-- [x] [Node.js](https://www.linkedin.com/learning/topics/node-js)
-- [x] [React.js](https://www.linkedin.com/learning/topics/react-js)
-- [x] [User Experience](https://www.linkedin.com/learning/topics/user-experience)
-- [x] [Software Development](https://www.linkedin.com/learning/topics/software-development)
-- [x] [Graphic Design](https://www.linkedin.com/learning/topics/graphic-design)
-- [x] [Photoshop](https://www.linkedin.com/learning/topics/photoshop)
-- [x] [Office 365](https://www.linkedin.com/learning/topics/office-365)
-- [x] [LinkedIn](https://www.linkedin.com/learning/topics/linkedin)
-
-##### YouTube:
-- [x] [Anson The Developer](https://www.youtube.com/@ansonthedev)
-- [x] [CS50](https://www.youtube.com/@cs50)
-- [x] [Fireship](https://www.youtube.com/@Fireship)
-- [x] [FreeCodeCamp](https://www.youtube.com/@freecodecamp)
-- [x] [GitHub](https://www.youtube.com/@GitHub)
-- [x] [Kevin Powell](https://www.youtube.com/@KevinPowell)
-- [x] [Kevin Stratvert](https://www.youtube.com/@KevinStratvert)
-- [x] [Facebook Open Source](https://www.youtube.com/@FacebookOpenSource)
-- [x] [Microsoft Azure](https://www.youtube.com/@MicrosoftAzure)
-- [x] [Traversy Media](https://www.youtube.com/@TraversyMedia)
+| LinkedIn Learning | YouTube |
+| --- | --- |
+| [Linux](https://www.linkedin.com/learning/topics/linux-2) | [Anson The Developer](https://www.youtube.com/@ansonthedev) |
+| [Project Management](https://www.linkedin.com/learning/topics/project-management) | [CS50](https://www.youtube.com/@cs50) |
+| [Professional Development](https://www.linkedin.com/learning/topics/professional-development) | [Fireship](https://www.youtube.com/@Fireship) |
+| [Web Development](https://www.linkedin.com/learning/topics/web-development) | [FreeCodeCamp](https://www.youtube.com/@freecodecamp) |
+| [Git](https://www.linkedin.com/learning/topics/git) | [GitHub](https://www.youtube.com/@GitHub) |
+| [APIs](https://www.linkedin.com/learning/topics/apis) | [Kevin Powell](https://www.youtube.com/@KevinPowell) |
+| [AWS](https://www.linkedin.com/learning/topics/amazon-web-services) | [Kevin Stratvert](https://www.youtube.com/@KevinStratvert) |
+| [SQL](https://www.linkedin.com/learning/topics/sql) | [Facebook Open Source](https://www.youtube.com/@FacebookOpenSource) |
+| [Python](https://www.linkedin.com/learning/topics/python) | [Microsoft Azure](https://www.youtube.com/@MicrosoftAzure) |
+| [JavaScript](https://www.linkedin.com/learning/topics/javascript) | [Traversy Media](https://www.youtube.com/@TraversyMedia) |
+| [Node.js](https://www.linkedin.com/learning/topics/node-js) | ... |
+| [React.js](https://www.linkedin.com/learning/topics/react-js) | ... |
+| [User Experience](https://www.linkedin.com/learning/topics/user-experience) | ... |
+| [Software Development](https://www.linkedin.com/learning/topics/software-development) | ... |
+| [Graphic Design](https://www.linkedin.com/learning/topics/graphic-design) | ... |
+| [Photoshop](https://www.linkedin.com/learning/topics/photoshop) | ... |
+| [Office 365](https://www.linkedin.com/learning/topics/office-365) | ... |
+| [LinkedIn](https://www.linkedin.com/learning/topics/linkedin) | ... |
 
 <hr>
 
