@@ -252,29 +252,25 @@ paymentPromise.show().then(paymentResponse =>
 
 - [x] [Download Visual Studio Code](https://code.visualstudio.com)
 
-##### Themes and Icons:
-- [x] [Theme](https://marketplace.visualstudio.com/items?itemName=tal7aouy.theme)
-- [x] [Atom Material Icons](https://marketplace.visualstudio.com/items?itemName=AtomMaterial.a-file-icon-vscode)
-- [x] [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons)
-
-##### Extensions:
-- [x] [Alphabetical Sorter](https://marketplace.visualstudio.com/items?itemName=ue.alphabetical-sorter)
-- [x] [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
-- [x] [Auto Complete Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-complete-tag)
-- [x] [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
-- [x] [vscode-pdf](https://marketplace.visualstudio.com/items?itemName=tomoki1207.pdf)
-- [x] [Color Info](https://marketplace.visualstudio.com/items?itemName=bierner.color-info)
-- [x] [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
-- [x] [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot)
-- [x] [HTML Boilerplate](https://marketplace.visualstudio.com/items?itemName=sidthesloth.html5-boilerplate)
-- [x] [HTML CSS Support](https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css)
-- [x] [indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow)
-- [x] [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
-- [x] [Lorem Ipsum](https://marketplace.visualstudio.com/items?itemName=Tyriar.lorem-ipsum)
-- [x] [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
-- [x] [npm Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense)
-- [x] [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
-- [x] [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
+| Extensions | Themes and Icons |
+| --- | --- |
+| [Alphabetical Sorter](https://marketplace.visualstudio.com/items?itemName=ue.alphabetical-sorter) | [Theme](https://marketplace.visualstudio.com/items?itemName=tal7aouy.theme) |
+| [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag) | [Atom Material Icons](https://marketplace.visualstudio.com/items?itemName=AtomMaterial.a-file-icon-vscode) |
+| [Auto Complete Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-complete-tag) | [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons) |
+| [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag) | ... |
+| [vscode-pdf](https://marketplace.visualstudio.com/items?itemName=tomoki1207.pdf) | ... |
+| [Color Info](https://marketplace.visualstudio.com/items?itemName=bierner.color-info) | ... |
+| [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens) | ... |
+| [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot) | ... |
+| [HTML Boilerplate](https://marketplace.visualstudio.com/items?itemName=sidthesloth.html5-boilerplate) | ... |
+| [HTML CSS Support](https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css) | ... |
+| [indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow) | ... |
+| [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) | ... |
+| [Lorem Ipsum](https://marketplace.visualstudio.com/items?itemName=Tyriar.lorem-ipsum) | ... |
+| [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) | ... |
+| [npm Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense) | ... |
+| [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense) | ... |
+| [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss) | ... |
 
 <hr>
 
@@ -282,33 +278,18 @@ paymentPromise.show().then(paymentResponse =>
 
 
 ### Resources:
-- [x] [MDN Web Docs](https://developer.mozilla.org/en-US)
-- [x] [DevDocs](https://devdocs.io)
-- [x] [W3Schools](https://www.w3schools.com)
-- [x] https://github.com/tiimgreen/github-cheat-sheet
-- [x] https://github.com/microsoft/Web-Dev-For-Beginners
-- [x] https://github.com/florinpop17/app-ideas
-- [x] https://github.com/thedaviddias/Front-End-Checklist
-- [x] https://github.com/marcobiedermann/search-engine-optimization
-- [x] https://github.com/levinunnink/html-form-to-google-sheet
-- [x] https://github.com/freeCodeCamp/freeCodeCamp
-- [x] https://github.com/joshbuchea/HEAD
-- [x] https://github.com/phuocng/html-dom
-- [x] https://www.w3schools.com/html/default.asp
-- [x] https://www.w3schools.com/css/default.asp
-- [x] https://www.w3schools.com/js/default.asp
-- [x] https://www.geeksforgeeks.org/html-cheat-sheet-a-basic-guide-to-html
-- [x] https://www.geeksforgeeks.org/css-cheat-sheet-a-basic-guide-to-css
-- [x] https://www.geeksforgeeks.org/javascript-cheat-sheet-a-basic-guide-to-javascript
-- [x] https://www.freecodecamp.org/news/search/?query=html
-- [x] https://www.freecodecamp.org/news/tag/html
-- [x] https://www.freecodecamp.org/news/tag/html5
-- [x] https://www.freecodecamp.org/news/search/?query=css
-- [x] https://www.freecodecamp.org/news/tag/css
-- [x] https://www.freecodecamp.org/news/search/?query=javascript
-- [x] https://www.freecodecamp.org/news/tag/javascript
-- [x] [Hex Color Codes with Transparency](https://gist.github.com/lopspower/03fb1cc0ac9f32ef38f4)
-- [x] [CSS Filter Generator](https://codepen.io/sosuke/pen/Pjoqqp)
+
+| Main | GitHub | GeeksforGeeks | FreeCodeCamp | W3Schools | Others |
+| --- | --- | --- | --- | --- | --- |
+| [MDN Web Docs](https://developer.mozilla.org/en-US) | [tiimgreen/github-cheat-sheet](https://github.com/tiimgreen/github-cheat-sheet) | [HTML](https://www.geeksforgeeks.org/html-cheat-sheet-a-basic-guide-to-html) | [HTML (Search)](https://www.freecodecamp.org/news/search/?query=html) | [HTML](https://www.w3schools.com/html/default.asp) | [Hex Color Codes with Transparency](https://gist.github.com/lopspower/03fb1cc0ac9f32ef38f4) |
+| [Google Developers](https://developers.google.com) | [microsoft/Web-Dev-For-Beginners](https://github.com/microsoft/Web-Dev-For-Beginners) | [CSS](https://www.geeksforgeeks.org/css-cheat-sheet-a-basic-guide-to-css) | [HTML](https://www.freecodecamp.org/news/tag/html) | [CSS](https://www.w3schools.com/css/default.asp) | [CSS Filter Generator](https://codepen.io/sosuke/pen/Pjoqqp) |
+| [GitHub Docs](https://docs.github.com/en) | [florinpop17/app-ideas](https://github.com/florinpop17/app-ideas) | [JavaScript](https://www.geeksforgeeks.org/javascript-cheat-sheet-a-basic-guide-to-javascript) | [HTML5](https://www.freecodecamp.org/news/tag/html5) | [JavaScript](https://www.w3schools.com/js/default.asp) | ... |
+| [DevDocs](https://devdocs.io) | [thedaviddias/Front-End-Checklist](https://github.com/thedaviddias/Front-End-Checklist) | ... | [CSS (Search)](https://www.freecodecamp.org/news/search/?query=css) | ... | ... |
+| [W3Schools](https://www.w3schools.com) | [marcobiedermann/search-engine-optimization](https://github.com/marcobiedermann/search-engine-optimization) | ... | [CSS](https://www.freecodecamp.org/news/tag/css) | ... | ... |
+| [Stack Overflow](https://stackoverflow.com) | [levinunnink/html-form-to-google-sheet](https://github.com/levinunnink/html-form-to-google-sheet) | ... | [JavaScript (Search)](https://www.freecodecamp.org/news/search/?query=javascript) | ... | ... |
+| [CSS Tricks](https://css-tricks.com) | [freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) | ... | [JavaScript](https://www.freecodecamp.org/news/tag/javascript) | ... | ... |
+| [freeCodeCamp](https://www.freecodecamp.org) | [joshbuchea/HEAD](https://github.com/joshbuchea/HEAD) | ... | ... | ... | ... |
+| [CodePen](https://codepen.io) | [phuocng/html-dom](https://github.com/phuocng/html-dom) | ... | ... | ... | ... |
 
 <hr>
 
