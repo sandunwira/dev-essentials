@@ -6,7 +6,7 @@
 
 
 
-### Git and GitHub
+### Git and GitHub:
 
 ##### 1. `git config`
 Sets the username and email address for commits.
@@ -62,7 +62,7 @@ git remote add origin https://github.com/username/repository.git
 
 
 
-### JavaScript Web APIs
+### JavaScript Web APIs:
 
 ##### 1. [Web Speech API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API):
 ```javascript
@@ -263,7 +263,7 @@ paymentPromise.show().then(paymentResponse =>
 
 
 
-### UI/UX Design
+### UI/UX Design:
 
 - [x] [Figma Web](https://www.figma.com)
 - [x] [Figma App](https://desktop.figma.com/win/FigmaSetup.exe)
@@ -350,7 +350,7 @@ paymentPromise.show().then(paymentResponse =>
 
 
 
-#### APIs
+#### APIs:
 - [x] https://github.com/marcelscruz/public-apis
 - [x] https://www.jsonapi.co/public-api
 - [x] https://any-api.com
@@ -360,7 +360,7 @@ paymentPromise.show().then(paymentResponse =>
 
 
 
-### GitHub Student Developer Pack
+### GitHub Student Developer Pack:
 - [x] [Benefits](https://education.github.com/pack)
 - [x] [Apply Here](https://education.github.com/discount_requests/application)
 
@@ -369,7 +369,7 @@ paymentPromise.show().then(paymentResponse =>
 
 
 
-### Visual Studio
+### Visual Studio:
 
 - [x] [Download Visual Studio Code](https://code.visualstudio.com)
 
@@ -401,7 +401,7 @@ paymentPromise.show().then(paymentResponse =>
 
 
 
-### Resources
+### Resources:
 - [x] [MDN Web Docs](https://developer.mozilla.org/en-US)
 - [x] [DevDocs](https://devdocs.io)
 - [x] [W3Schools](https://www.w3schools.com)
@@ -435,12 +435,51 @@ paymentPromise.show().then(paymentResponse =>
 
 
 
+### Courses and Learning Materials:
+
+##### LinkedIn Learning:
+- [x] [Linux](https://www.linkedin.com/learning/topics/linux-2)
+- [x] [Project Management](https://www.linkedin.com/learning/topics/project-management)
+- [x] [Professional Development](https://www.linkedin.com/learning/topics/professional-development)
+- [x] [Web Development](https://www.linkedin.com/learning/topics/web-development)
+- [x] [Git](https://www.linkedin.com/learning/topics/git)
+- [x] [APIs](https://www.linkedin.com/learning/topics/apis)
+- [x] [AWS](https://www.linkedin.com/learning/topics/amazon-web-services)
+- [x] [SQL](https://www.linkedin.com/learning/topics/sql)
+- [x] [Python](https://www.linkedin.com/learning/topics/python)
+- [x] [JavaScript](https://www.linkedin.com/learning/topics/javascript)
+- [x] [Node.js](https://www.linkedin.com/learning/topics/node-js)
+- [x] [React.js](https://www.linkedin.com/learning/topics/react-js)
+- [x] [User Experience](https://www.linkedin.com/learning/topics/user-experience)
+- [x] [Software Development](https://www.linkedin.com/learning/topics/software-development)
+- [x] [Graphic Design](https://www.linkedin.com/learning/topics/graphic-design)
+- [x] [Photoshop](https://www.linkedin.com/learning/topics/photoshop)
+- [x] [Office 365](https://www.linkedin.com/learning/topics/office-365)
+- [x] [LinkedIn](https://www.linkedin.com/learning/topics/linkedin)
+
+##### YouTube:
+- [x] [Anson The Developer](https://www.youtube.com/@ansonthedev)
+- [x] [CS50](https://www.youtube.com/@cs50)
+- [x] [Fireship](https://www.youtube.com/@Fireship)
+- [x] [FreeCodeCamp](https://www.youtube.com/@freecodecamp)
+- [x] [GitHub](https://www.youtube.com/@GitHub)
+- [x] [Kevin Powell](https://www.youtube.com/@KevinPowell)
+- [x] [Kevin Stratvert](https://www.youtube.com/@KevinStratvert)
+- [x] [Facebook Open Source](https://www.youtube.com/@FacebookOpenSource)
+- [x] [Microsoft Azure](https://www.youtube.com/@MicrosoftAzure)
+- [x] [Traversy Media](https://www.youtube.com/@TraversyMedia)
+
+<hr>
+
+
+
+
 ### Frameworks / Tools:
 
 ##### CSS:
 - [x] [Tailwind CSS](https://tailwindcss.com/docs/installation)
 - [x] [Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/download)
-- [ ] [CSS Loaders](https://css-loaders.com)
+- [x] [CSS Loaders](https://css-loaders.com)
 
 ##### Fonts:
 - [x] [Google Fonts](https://fonts.google.com)
