@@ -449,13 +449,16 @@ paymentPromise.show().then(paymentResponse =>
 ##### Icons / SVG:
 - [x] [Font Awesome](https://fontawesome.com/search?o=r&m=free)
 - [x] [Simple Icons](https://github.com/simple-icons/simple-icons)
+- [x] [IconMonstr](https://iconmonstr.com)
 - [x] [Icons8](https://icons8.com)
 - [x] [Vector Logo Zone](https://www.vectorlogo.zone/logos/index.html)
 - [x] [World Vector Logo](https://worldvectorlogo.com)
 
 ##### Images / Videos:
 - [x] [Unsplash](https://unsplash.com)
+- [x] [Freepik](https://www.freepik.com)
 - [x] [Shields.io](https://shields.io)
+- [x] [Mesh Gradient](https://meshgradient.in)
 
 ##### Grammar:
 - [x] [Ginger Grammer Checker](https://www.gingersoftware.com/grammarcheck)
@@ -526,6 +529,7 @@ paymentPromise.show().then(paymentResponse =>
 - [x] Interactive Drawing Canvas
 - [x] Digital Clock
 - [x] BMI Calculator
+- [x] CRUD Operation Website
 - [x] Event Countdown Timer
 - [x] Random HEX Color Code Generator (with Preview)
 - [x] Simple Firefox / Chrome Extensions
