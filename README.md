@@ -383,6 +383,7 @@ paymentPromise.show().then(paymentResponse =>
 - [x] [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
 - [x] [Auto Complete Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-complete-tag)
 - [x] [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
+- [x] [vscode-pdf](https://marketplace.visualstudio.com/items?itemName=tomoki1207.pdf)
 - [x] [Color Info](https://marketplace.visualstudio.com/items?itemName=bierner.color-info)
 - [x] [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
 - [x] [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot)
