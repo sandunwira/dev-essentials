@@ -1,8 +1,3 @@
-# dev-essentials
-Contains resources for startup projects
-
-<hr>
-
 ## Git and GitHub
 
 #### 1. `git config`
@@ -266,33 +261,54 @@ paymentPromise.show().then(paymentResponse =>
 #### Figma
 
 Mockups
-- https://www.figma.com/community/plugin/817043359134136295/mockup
-- https://www.figma.com/community/plugin/786250770157843670/mockuuups-studio
-- https://www.figma.com/community/plugin/750673765607708804/artboard-studio-mockups
-- https://www.figma.com/community/plugin/778645840235495725/angle-mockups
-- https://www.figma.com/community/plugin/1051242643585430631/mockrocket-3d-mockups
-- https://www.figma.com/community/plugin/819335598581469537/clay-mockups-3d
-- https://www.figma.com/community/plugin/1009741687635558607/rotato-3d-mockups-explosions
-- https://www.figma.com/community/plugin/1180592708021765520/easy-mockup
+- [Mockup](https://www.figma.com/community/plugin/817043359134136295)
+- [Mockuuups Studio](https://www.figma.com/community/plugin/786250770157843670)
+- [Artboard Studio Mockups](https://www.figma.com/community/plugin/750673765607708804)
+- [Angle Mockups](https://www.figma.com/community/plugin/778645840235495725)
+- [MockRocket – 3D Mockups](https://www.figma.com/community/plugin/1051242643585430631)
+- [Clay Mockups 3D](https://www.figma.com/community/plugin/819335598581469537)
+- [Rotato 3D Mockups + Explosions](https://www.figma.com/community/plugin/1009741687635558607)
+- [Easy Mockup](https://www.figma.com/community/plugin/1180592708021765520)
+- [A Little Bit Mockup](https://www.figma.com/community/plugin/1149987037748021167)
 
-
+Others
+- [Avatars](https://www.figma.com/community/plugin/739659977030056719)
+- [EOS Icons](https://www.figma.com/community/plugin/1131638845835688020)
+- [Export Images](https://www.figma.com/community/plugin/1073791321657719341)
+- [Mesh Gradient](https://www.figma.com/community/plugin/958202093377483021)
+- [Simple Icons](https://www.figma.com/community/plugin/1149614463603005908)
+- [LottieFiles](https://www.figma.com/community/plugin/809860933081065308)
 
 <hr>
 
 
 
 
-### Public APIs:
+## APIs
 - https://github.com/marcelscruz/public-apis
 - https://www.jsonapi.co/public-api
 - https://any-api.com
 
-### Useful Links:
+<hr>
+
+
+
+
+## GitHub Student Developer Pack
+- https://education.github.com/pack
+
+<hr>
+
+
+
+
+## Learning Resources
 - https://github.com/tiimgreen/github-cheat-sheet
 - https://github.com/microsoft/Web-Dev-For-Beginners
 - https://github.com/florinpop17/app-ideas
 - https://github.com/thedaviddias/Front-End-Checklist
 - https://github.com/marcobiedermann/search-engine-optimization
+- https://github.com/levinunnink/html-form-to-google-sheet
 - https://github.com/freeCodeCamp/freeCodeCamp
 - https://github.com/joshbuchea/HEAD
 - https://github.com/phuocng/html-dom
@@ -302,10 +318,18 @@ Mockups
 - https://www.geeksforgeeks.org/html-cheat-sheet-a-basic-guide-to-html
 - https://www.geeksforgeeks.org/css-cheat-sheet-a-basic-guide-to-css
 - https://www.geeksforgeeks.org/javascript-cheat-sheet-a-basic-guide-to-javascript
-- https://education.github.com/pack
+- https://www.freecodecamp.org/news/search/?query=html
+- https://www.freecodecamp.org/news/tag/html
+- https://www.freecodecamp.org/news/tag/html5
+- https://www.freecodecamp.org/news/search/?query=css
+- https://www.freecodecamp.org/news/tag/css
+- https://www.freecodecamp.org/news/search/?query=javascript
+- https://www.freecodecamp.org/news/tag/javascript
 
-### Useful Repos:
-- https://github.com/levinunnink/html-form-to-google-sheet
+<hr>
+
+
+
 
 ### Frameworks / Toolkits:
 - https://github.com/tailwindlabs/tailwindcss
@@ -313,6 +337,11 @@ Mockups
 - https://github.com/FortAwesome/Font-Awesome
 - https://github.com/simple-icons/simple-icons
 - https://github.com/supabase/supabase
+
+<hr>
+
+
+
 
 ### Projects:
 - Portfolio (Live using GitHub Pages)
