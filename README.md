@@ -209,28 +209,19 @@ paymentPromise.show().then(paymentResponse =>
 
 ### UI/UX Design:
 
-<table>
-  <tr>
-    <th>Mockups</th>
-    <th>3D</th>
-    <th>Widgets</th>
-    <th>Grid Layout</th>
-    <th>Typography</th>
-    <th>Accessibility</th>
-    <th>Animation</th>
-    <th>Others</th>
-  </tr>
-  <tr>
-    <td><a href="https://www.figma.com/community/plugin/817043359134136295">Mockup</a></td>
-    <td><a href="https://www.figma.com/community/plugin/1260632020336566834">Simple3D</a></td>
-    <td><a href="https://www.figma.com/community/widget/1099808304417613104">Navigate</a></td>
-    <td><a href="https://www.figma.com/community/plugin/983672137155100557">Token Space 8</a></td>
-    <td><a href="https://www.figma.com/community/plugin/739825414752646970">Typescales</a></td>
-    <td><a href="https://www.figma.com/community/plugin/733159460536249875">A11y</a></td>
-    <td><a href="https://www.figma.com/community/plugin/1077659774432109711">SVG Motion</a></td>
-    <td><a href="https://www.figma.com/community/plugin/739659977030056719">Avatars</a></td>
-  </tr>
-</table>
+| Mockups | 3D | Widgets | Grid Layout | Typography | Accessibility | Animation | Others |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| [Mockup](https://www.figma.com/community/plugin/817043359134136295) | [Simple3D](https://www.figma.com/community/plugin/1260632020336566834) | [Navigate](https://www.figma.com/community/widget/1099808304417613104) | [Token Space 8](https://www.figma.com/community/plugin/983672137155100557) | [Typescales](https://www.figma.com/community/plugin/739825414752646970) | [A11y](https://www.figma.com/community/plugin/733159460536249875) | [SVG Motion](https://www.figma.com/community/plugin/1077659774432109711) | [Avatars](https://www.figma.com/community/plugin/739659977030056719) |
+| [Mockuuups Studio](https://www.figma.com/community/plugin/786250770157843670) | [Oblique](https://www.figma.com/community/plugin/876352455198080607) | [Simple Vote](https://www.figma.com/community/widget/1031261785662682451) | [Auto Layout Grids](https://www.figma.com/community/plugin/1017842387720709543) | [Typestyles](https://www.figma.com/community/plugin/803311677045533625) | [Color Blind](https://www.figma.com/community/plugin/733343906244951586) | [LottieFiles](https://www.figma.com/community/plugin/809860933081065308) | [EOS Icons](https://www.figma.com/community/plugin/1131638845835688020) |
+| [Artboard Studio Mockups](https://www.figma.com/community/plugin/750673765607708804) | [Vector to 3D](https://www.figma.com/community/plugin/1264600219316901594) | [Activity Tracker](https://www.figma.com/community/widget/1026880323669555103) | [Grid System](https://www.figma.com/community/plugin/1033367904576323011) | [Textyles](https://www.figma.com/community/plugin/804843548882105498) | [Stark](https://www.figma.com/community/plugin/732603254453395948) | [Motion](https://www.figma.com/community/plugin/889777319208467032) | [Export Images](https://www.figma.com/community/plugin/1073791321657719341) |
+| [Angle Mockups](https://www.figma.com/community/plugin/778645840235495725) | [3D Shape Generator](https://www.figma.com/community/plugin/1224199081556506234) | [Import PDF](https://www.figma.com/community/widget/1064675123479620100) | [Grids Generator](https://www.figma.com/community/plugin/841313026689642442) | [Typescale](https://www.figma.com/community/plugin/967802396210455992) | [Contrast](https://www.figma.com/community/plugin/748533339900865323) | [Parallax](https://www.figma.com/community/plugin/1166980815207476504) | [Mesh Gradient](https://www.figma.com/community/plugin/958202093377483021) |
+| [MockRocket – 3D Mockups](https://www.figma.com/community/plugin/1051242643585430631) | [Globe 3D](https://www.figma.com/community/plugin/977567760148608604) | [Voice Memo](https://www.figma.com/community/widget/1100947233945489758) | [12 Column Grid](https://www.figma.com/community/plugin/1235599430244558186) | [Text Styles Generator](https://www.figma.com/community/plugin/759472336242530542) | [Text Resizer](https://www.figma.com/community/plugin/892114953056389734) | [Figmotion](https://www.figma.com/community/plugin/733025261168520714) | [Simple Icons](https://www.figma.com/community/plugin/1149614463603005908) |
+| [Clay Mockups 3D](https://www.figma.com/community/plugin/819335598581469537) | [Fig3D](https://www.figma.com/community/plugin/946020080871644950) | [Photo Booth](https://www.figma.com/community/widget/1030479012894344777) | [AutoGrid](https://www.figma.com/community/plugin/817474150404549708) | [Variable Fonts](https://www.figma.com/community/plugin/966184368629063440) | [Adee](https://www.figma.com/community/plugin/931280467863251825) | [Physics Animation](https://www.figma.com/community/plugin/1051790240828992953) | ... |
+| [Rotato 3D Mockups + Explosions](https://www.figma.com/community/plugin/1009741687635558607) | [Fast Isometric](https://www.figma.com/community/plugin/1249759048471403961) | [Calculator](https://www.figma.com/community/widget/1117624863659822884) | [Figma to Bootstrap 5](https://www.figma.com/community/plugin/1287660587112027215) | [Aa Scale](https://www.figma.com/community/plugin/1242946360312220414) | [Low Vision](https://www.figma.com/community/plugin/940423402083252469) | [Beatflyer](https://www.figma.com/community/plugin/776923340646658146) | ... |
+| [Easy Mockup](https://www.figma.com/community/plugin/1180592708021765520) | [3D Wave](https://www.figma.com/community/plugin/1026141971534783843) | [Asana](https://www.figma.com/community/widget/1098405969270214551) | [Layout Grid Visualizer](https://www.figma.com/community/plugin/831003768229656707) | ... | [Able](https://www.figma.com/community/plugin/734693888346260052) | [Blazy](https://www.figma.com/community/plugin/1278086746813211814) | ... |
+| [A Little Bit Mockup](https://www.figma.com/community/plugin/1149987037748021167) | ... | ... | ... | ... | ... | ... | ... |
+
+
 
 - [x] [Figma Web](https://www.figma.com)
 - [x] [Figma App](https://desktop.figma.com/win/FigmaSetup.exe)
