@@ -1,3 +1,11 @@
+<div align="center">
+  <h2>Dev Essentials</h2>
+  <p>Essentials when developing websites and apps</p>
+</div>
+
+
+
+
 ## Git and GitHub
 
 #### 1. `git config`
@@ -278,27 +286,27 @@ paymentPromise.show().then(paymentResponse =>
 
 #### Figma
 
-- [Figma Web](https://www.figma.com)
-- [Figma App](https://desktop.figma.com/win/FigmaSetup.exe)
+- [x] [Figma Web](https://www.figma.com)
+- [x] [Figma App](https://desktop.figma.com/win/FigmaSetup.exe)
 
 Mockups
-- [Mockup](https://www.figma.com/community/plugin/817043359134136295)
-- [Mockuuups Studio](https://www.figma.com/community/plugin/786250770157843670)
-- [Artboard Studio Mockups](https://www.figma.com/community/plugin/750673765607708804)
-- [Angle Mockups](https://www.figma.com/community/plugin/778645840235495725)
-- [MockRocket – 3D Mockups](https://www.figma.com/community/plugin/1051242643585430631)
-- [Clay Mockups 3D](https://www.figma.com/community/plugin/819335598581469537)
-- [Rotato 3D Mockups + Explosions](https://www.figma.com/community/plugin/1009741687635558607)
-- [Easy Mockup](https://www.figma.com/community/plugin/1180592708021765520)
-- [A Little Bit Mockup](https://www.figma.com/community/plugin/1149987037748021167)
+- [x] [Mockup](https://www.figma.com/community/plugin/817043359134136295)
+- [x] [Mockuuups Studio](https://www.figma.com/community/plugin/786250770157843670)
+- [x] [Artboard Studio Mockups](https://www.figma.com/community/plugin/750673765607708804)
+- [x] [Angle Mockups](https://www.figma.com/community/plugin/778645840235495725)
+- [x] [MockRocket – 3D Mockups](https://www.figma.com/community/plugin/1051242643585430631)
+- [x] [Clay Mockups 3D](https://www.figma.com/community/plugin/819335598581469537)
+- [x] [Rotato 3D Mockups + Explosions](https://www.figma.com/community/plugin/1009741687635558607)
+- [x] [Easy Mockup](https://www.figma.com/community/plugin/1180592708021765520)
+- [x] [A Little Bit Mockup](https://www.figma.com/community/plugin/1149987037748021167)
 
 Others
-- [Avatars](https://www.figma.com/community/plugin/739659977030056719)
-- [EOS Icons](https://www.figma.com/community/plugin/1131638845835688020)
-- [Export Images](https://www.figma.com/community/plugin/1073791321657719341)
-- [Mesh Gradient](https://www.figma.com/community/plugin/958202093377483021)
-- [Simple Icons](https://www.figma.com/community/plugin/1149614463603005908)
-- [LottieFiles](https://www.figma.com/community/plugin/809860933081065308)
+- [x] [Avatars](https://www.figma.com/community/plugin/739659977030056719)
+- [x] [EOS Icons](https://www.figma.com/community/plugin/1131638845835688020)
+- [x] [Export Images](https://www.figma.com/community/plugin/1073791321657719341)
+- [x] [Mesh Gradient](https://www.figma.com/community/plugin/958202093377483021)
+- [x] [Simple Icons](https://www.figma.com/community/plugin/1149614463603005908)
+- [x] [LottieFiles](https://www.figma.com/community/plugin/809860933081065308)
 
 <hr>
 
@@ -306,9 +314,9 @@ Others
 
 
 ## APIs
-- https://github.com/marcelscruz/public-apis
-- https://www.jsonapi.co/public-api
-- https://any-api.com
+- [x] https://github.com/marcelscruz/public-apis
+- [x] https://www.jsonapi.co/public-api
+- [x] https://any-api.com
 
 <hr>
 
@@ -316,7 +324,7 @@ Others
 
 
 ## GitHub Student Developer Pack
-- https://education.github.com/pack
+- [x] https://education.github.com/pack
 
 <hr>
 
@@ -325,28 +333,28 @@ Others
 
 ## Visual Studio
 
-[Download Visual Studio Code](https://code.visualstudio.com)
+- [x] [Download Visual Studio Code](https://code.visualstudio.com)
 
 Extensions
-- [Alphabetical Sorter](https://marketplace.visualstudio.com/items?itemName=ue.alphabetical-sorter)
-- [Atom Material Icons](https://marketplace.visualstudio.com/items?itemName=AtomMaterial.a-file-icon-vscode)
-- [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
-- [Auto Complete Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-complete-tag)
-- [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
-- [Color Info](https://marketplace.visualstudio.com/items?itemName=bierner.color-info)
-- [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
-- [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot)
-- [HTML Boilerplate](https://marketplace.visualstudio.com/items?itemName=sidthesloth.html5-boilerplate)
-- [HTML CSS Support](https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css)
-- [indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow)
-- [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
-- [Lorem Ipsum](https://marketplace.visualstudio.com/items?itemName=Tyriar.lorem-ipsum)
-- [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
-- [npm Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense)
-- [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
-- [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
-- [Theme](https://marketplace.visualstudio.com/items?itemName=tal7aouy.theme)
-- [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons)
+- [x] [Alphabetical Sorter](https://marketplace.visualstudio.com/items?itemName=ue.alphabetical-sorter)
+- [x] [Atom Material Icons](https://marketplace.visualstudio.com/items?itemName=AtomMaterial.a-file-icon-vscode)
+- [x] [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
+- [x] [Auto Complete Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-complete-tag)
+- [x] [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
+- [x] [Color Info](https://marketplace.visualstudio.com/items?itemName=bierner.color-info)
+- [x] [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
+- [x] [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot)
+- [x] [HTML Boilerplate](https://marketplace.visualstudio.com/items?itemName=sidthesloth.html5-boilerplate)
+- [x] [HTML CSS Support](https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css)
+- [x] [indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow)
+- [x] [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+- [x] [Lorem Ipsum](https://marketplace.visualstudio.com/items?itemName=Tyriar.lorem-ipsum)
+- [x] [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
+- [x] [npm Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense)
+- [x] [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
+- [x] [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
+- [x] [Theme](https://marketplace.visualstudio.com/items?itemName=tal7aouy.theme)
+- [x] [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons)
 
 <hr>
 
@@ -354,28 +362,28 @@ Extensions
 
 
 ## Learning Resources
-- https://github.com/tiimgreen/github-cheat-sheet
-- https://github.com/microsoft/Web-Dev-For-Beginners
-- https://github.com/florinpop17/app-ideas
-- https://github.com/thedaviddias/Front-End-Checklist
-- https://github.com/marcobiedermann/search-engine-optimization
-- https://github.com/levinunnink/html-form-to-google-sheet
-- https://github.com/freeCodeCamp/freeCodeCamp
-- https://github.com/joshbuchea/HEAD
-- https://github.com/phuocng/html-dom
-- https://www.w3schools.com/html/default.asp
-- https://www.w3schools.com/css/default.asp
-- https://www.w3schools.com/js/default.asp
-- https://www.geeksforgeeks.org/html-cheat-sheet-a-basic-guide-to-html
-- https://www.geeksforgeeks.org/css-cheat-sheet-a-basic-guide-to-css
-- https://www.geeksforgeeks.org/javascript-cheat-sheet-a-basic-guide-to-javascript
-- https://www.freecodecamp.org/news/search/?query=html
-- https://www.freecodecamp.org/news/tag/html
-- https://www.freecodecamp.org/news/tag/html5
-- https://www.freecodecamp.org/news/search/?query=css
-- https://www.freecodecamp.org/news/tag/css
-- https://www.freecodecamp.org/news/search/?query=javascript
-- https://www.freecodecamp.org/news/tag/javascript
+- [x] https://github.com/tiimgreen/github-cheat-sheet
+- [x] https://github.com/microsoft/Web-Dev-For-Beginners
+- [x] https://github.com/florinpop17/app-ideas
+- [x] https://github.com/thedaviddias/Front-End-Checklist
+- [x] https://github.com/marcobiedermann/search-engine-optimization
+- [x] https://github.com/levinunnink/html-form-to-google-sheet
+- [x] https://github.com/freeCodeCamp/freeCodeCamp
+- [x] https://github.com/joshbuchea/HEAD
+- [x] https://github.com/phuocng/html-dom
+- [x] https://www.w3schools.com/html/default.asp
+- [x] https://www.w3schools.com/css/default.asp
+- [x] https://www.w3schools.com/js/default.asp
+- [x] https://www.geeksforgeeks.org/html-cheat-sheet-a-basic-guide-to-html
+- [x] https://www.geeksforgeeks.org/css-cheat-sheet-a-basic-guide-to-css
+- [x] https://www.geeksforgeeks.org/javascript-cheat-sheet-a-basic-guide-to-javascript
+- [x] https://www.freecodecamp.org/news/search/?query=html
+- [x] https://www.freecodecamp.org/news/tag/html
+- [x] https://www.freecodecamp.org/news/tag/html5
+- [x] https://www.freecodecamp.org/news/search/?query=css
+- [x] https://www.freecodecamp.org/news/tag/css
+- [x] https://www.freecodecamp.org/news/search/?query=javascript
+- [x] https://www.freecodecamp.org/news/tag/javascript
 
 <hr>
 
@@ -383,11 +391,11 @@ Extensions
 
 
 ### Frameworks / Toolkits:
-- https://github.com/tailwindlabs/tailwindcss
-- https://github.com/twbs/bootstrap
-- https://github.com/FortAwesome/Font-Awesome
-- https://github.com/simple-icons/simple-icons
-- https://github.com/supabase/supabase
+- [x] https://github.com/tailwindlabs/tailwindcss
+- [x] https://github.com/twbs/bootstrap
+- [x] https://github.com/FortAwesome/Font-Awesome
+- [x] https://github.com/simple-icons/simple-icons
+- [x] https://github.com/supabase/supabase
 
 <hr>
 
@@ -395,24 +403,24 @@ Extensions
 
 
 ### Projects:
-- Portfolio (Live using GitHub Pages)
-- To-do List / Note-taking Website
-- Product / Event / Business Landing page
-- Blog Website
-- Weather Website (Work with APIs)
-- Interactive Quiz (Work with APIs)
-- Currency or Unit Converter (Work with APIs)
-- Music Player (Local files or Work with APIs)
-- News Reader (Work with APIs)
-- Simple Games (Example: Rock, Paper, Scissors)
-- Movie Finder (Work with APIs)
-- Book Finder (Work with APIs)
-- Task Planner
-- Random Quote Generator (Work with APIs)
-- Simple Calculator
-- Interactive Drawing Canvas
-- Digital Clock
-- BMI Calculator
-- Event Countdown Timer
-- Random HEX Color Code Generator (with Preview)
-- Simple Firefox / Chrome Extensions
+- [x] Portfolio (Live using GitHub Pages)
+- [x] To-do List / Note-taking Website
+- [x] Product / Event / Business Landing page
+- [x] Blog Website
+- [x] Weather Website (Work with APIs)
+- [x] Interactive Quiz (Work with APIs)
+- [x] Currency or Unit Converter (Work with APIs)
+- [x] Music Player (Local files or Work with APIs)
+- [x] News Reader (Work with APIs)
+- [x] Simple Games (Example: Rock, Paper, Scissors)
+- [x] Movie Finder (Work with APIs)
+- [x] Book Finder (Work with APIs)
+- [x] Task Planner
+- [x] Random Quote Generator (Work with APIs)
+- [x] Simple Calculator
+- [x] Interactive Drawing Canvas
+- [x] Digital Clock
+- [x] BMI Calculator
+- [x] Event Countdown Timer
+- [x] Random HEX Color Code Generator (with Preview)
+- [x] Simple Firefox / Chrome Extensions
