@@ -382,6 +382,7 @@ paymentPromise.show().then(paymentResponse =>
 ##### CSS:
 - [x] [Tailwind CSS](https://tailwindcss.com/docs/installation)
 - [x] [Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/download)
+- [ ] [CSS Loaders](https://css-loaders.com)
 
 ##### Fonts:
 - [x] [Google Fonts](https://fonts.google.com)
@@ -390,6 +391,7 @@ paymentPromise.show().then(paymentResponse =>
 ##### Icons / SVG:
 - [x] [Font Awesome](https://fontawesome.com/search?o=r&m=free)
 - [x] [Simple Icons](https://github.com/simple-icons/simple-icons)
+- [x] [Icons8](https://icons8.com)
 - [x] [Vector Logo Zone](https://www.vectorlogo.zone/logos/index.html)
 - [x] [World Vector Logo](https://worldvectorlogo.com)
 
