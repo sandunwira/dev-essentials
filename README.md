@@ -305,25 +305,25 @@ Others
 ## Visual Studio
 
 Extensions
-- https://marketplace.visualstudio.com/items?itemName=ue.alphabetical-sorter
-- https://marketplace.visualstudio.com/items?itemName=AtomMaterial.a-file-icon-vscode
-- https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag
-- https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-complete-tag
-- https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag
-- https://marketplace.visualstudio.com/items?itemName=bierner.color-info
-- https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens
-- https://marketplace.visualstudio.com/items?itemName=GitHub.copilot
-- https://marketplace.visualstudio.com/items?itemName=sidthesloth.html5-boilerplate
-- https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css
-- https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow
-- https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
-- https://marketplace.visualstudio.com/items?itemName=Tyriar.lorem-ipsum
-- https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint
-- https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense
-- https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense
-- https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss
-- https://marketplace.visualstudio.com/items?itemName=tal7aouy.theme
-- https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons
+- [Alphabetical Sorter](https://marketplace.visualstudio.com/items?itemName=ue.alphabetical-sorter)
+- [Atom Material Icons](https://marketplace.visualstudio.com/items?itemName=AtomMaterial.a-file-icon-vscode)
+- [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
+- [Auto Complete Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-complete-tag)
+- [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
+- [Color Info](https://marketplace.visualstudio.com/items?itemName=bierner.color-info)
+- [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
+- [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot)
+- [HTML Boilerplate](https://marketplace.visualstudio.com/items?itemName=sidthesloth.html5-boilerplate)
+- [HTML CSS Support](https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css)
+- [indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow)
+- [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+- [Lorem Ipsum](https://marketplace.visualstudio.com/items?itemName=Tyriar.lorem-ipsum)
+- [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
+- [npm Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense)
+- [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
+- [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
+- [Theme](https://marketplace.visualstudio.com/items?itemName=tal7aouy.theme)
+- [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons)
 
 <hr>
 
