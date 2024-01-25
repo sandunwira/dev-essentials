@@ -261,6 +261,27 @@ paymentPromise.show().then(paymentResponse =>
 
 
 
+## UI/UX Design
+
+#### Figma
+
+Mockups
+- https://www.figma.com/community/plugin/817043359134136295/mockup
+- https://www.figma.com/community/plugin/786250770157843670/mockuuups-studio
+- https://www.figma.com/community/plugin/750673765607708804/artboard-studio-mockups
+- https://www.figma.com/community/plugin/778645840235495725/angle-mockups
+- https://www.figma.com/community/plugin/1051242643585430631/mockrocket-3d-mockups
+- https://www.figma.com/community/plugin/819335598581469537/clay-mockups-3d
+- https://www.figma.com/community/plugin/1009741687635558607/rotato-3d-mockups-explosions
+- https://www.figma.com/community/plugin/1180592708021765520/easy-mockup
+
+
+
+<hr>
+
+
+
+
 ### Public APIs:
 - https://github.com/marcelscruz/public-apis
 - https://www.jsonapi.co/public-api
