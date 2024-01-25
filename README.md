@@ -260,6 +260,9 @@ paymentPromise.show().then(paymentResponse =>
 
 #### Figma
 
+[Figma Web](https://www.figma.com)
+[Figma App](https://desktop.figma.com/win/FigmaSetup.exe)
+
 Mockups
 - [Mockup](https://www.figma.com/community/plugin/817043359134136295)
 - [Mockuuups Studio](https://www.figma.com/community/plugin/786250770157843670)
@@ -303,6 +306,8 @@ Others
 
 
 ## Visual Studio
+
+[Download Visual Studio Code](https://code.visualstudio.com)
 
 Extensions
 - [Alphabetical Sorter](https://marketplace.visualstudio.com/items?itemName=ue.alphabetical-sorter)
