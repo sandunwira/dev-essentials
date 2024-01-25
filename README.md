@@ -6,34 +6,34 @@
 
 
 
-## Git and GitHub
+### Git and GitHub
 
-#### 1. `git config`
+##### 1. `git config`
 Sets the username and email address for commits.
 ```
 git config --global user.name "Your Name"
 git config --global user.email "youremail@mail.com"
 ```
 
-#### 2. `git init`
+##### 2. `git init`
 Initialize repository as git repository.
 ```
 git init
 ```
 
-#### 3. `git clone [url]`
+##### 3. `git clone [url]`
 Clones repository from a server like GitHub, GitLab etc.
 ```
 git clone https://github.com/username/repository.git
 ```
 
-#### 4. `git status`
+##### 4. `git status`
 Checks the current status of working tree.
 ```
 git status
 ```
 
-#### 5. `git add [Filename(s)]`
+##### 5. `git add [Filename(s)]`
 Puts the unstage files to staging area.
 ```
 // Add Specific Files
@@ -43,7 +43,7 @@ git add index.html style.css script.js
 git add .
 ```
 
-#### 6. `git commit -m [Message]`
+##### 6. `git commit -m [Message]`
 Records changes to the git repo by saving a log together with a commit ID
 ```
 git commit -m "fixed bug"
@@ -51,7 +51,7 @@ git commit -m "fixed bug"
 git commit -a
 ```
 
-#### 7. `git remote [options] [variable] [url]`
+##### 7. `git remote [options] [variable] [url]`
 Connects your local repository to the remote repository over a server.
 ```
 git remote add origin https://github.com/username/repository.git
@@ -62,9 +62,9 @@ git remote add origin https://github.com/username/repository.git
 
 
 
-## JavaScript Web APIs
+### JavaScript Web APIs
 
-#### 1. [Web Speech API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API):
+##### 1. [Web Speech API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API):
 ```javascript
 const textToSpeak = "Hello There";
 const utterance = new SpeechSynthesisUtterance(textToSpeak);
@@ -72,7 +72,7 @@ const utterance = new SpeechSynthesisUtterance(textToSpeak);
 window.speechSynthesis.speak(utterance);
 ```
 
-#### 2. [Web Storage API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API):
+##### 2. [Web Storage API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API):
 ```javascript
 // Store Data
 localStorage.setItem('key', 'value');
@@ -84,7 +84,7 @@ const storedValue = localStorage.getItem('key');
 localStorage.removeItem('key');
 ```
 
-#### 3. [Web Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API):
+##### 3. [Web Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API):
 ```javascript
 fetch('http://example.com/movies.json')
   .then(response => response.json())
@@ -92,7 +92,7 @@ fetch('http://example.com/movies.json')
   .catch(error => console.error('error:', error));
 ```
 
-#### 4. [Web Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API):
+##### 4. [Web Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API):
 ```javascript
 navigator.geolocation.getCurrentPosition(
   position => {
@@ -104,7 +104,7 @@ navigator.geolocation.getCurrentPosition(
 );
 ```
 
-#### 5. [Web Canvas API](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API):
+##### 5. [Web Canvas API](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API):
 ```javascript
 const canvas = document.createElement('canvas');
 canvas.width = 200;
@@ -116,7 +116,7 @@ ctx.fillStyle = 'blue';
 ctx.fillRect(10, 10, 180, 80);
 ```
 
-#### 6. [Web Audio API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API):
+##### 6. [Web Audio API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API):
 ```javascript
 const audioContext = new (window.AudioContext || window.webkitAudioContext)();
 const oscillator = audioContext.createOscillator();
@@ -127,7 +127,7 @@ oscillator.start();
 oscillator.stop(audioContext.currentTime + 1);
 ```
 
-#### 7. [Web Sockets API](https://developer.mozilla.org/en-US/docs/Web/API/WebSocket):
+##### 7. [Web Sockets API](https://developer.mozilla.org/en-US/docs/Web/API/WebSocket):
 ```javascript
 const socket = new WebSocket('wss://example.com/socket');
 
@@ -136,7 +136,7 @@ socket.addEventListener('message', event => console.log('Received: ', event.data
 socket.addEventListener('close', () => console.log('Connection closed.'));
 ```
 
-#### 8. [Web IndexedDB API](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API):
+##### 8. [Web IndexedDB API](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API):
 ```javascript
 // Open (or create) the database
 const dbName = "InstagramPostsDB";
@@ -152,7 +152,7 @@ request.onupgradeneeded(() => {});
 request.onsuccess(() => {});
 ```
 
-#### 9. [Web File API](https://developer.mozilla.org/en-US/docs/Web/API/File_API):
+##### 9. [Web File API](https://developer.mozilla.org/en-US/docs/Web/API/File_API):
 ```javascript
 <input type="file" id="imageInput" accept="image/*">
 <button onclick="uploadPost()">Upload Post</button>
@@ -165,7 +165,7 @@ request.onsuccess(() => {});
 </script>
 ```
 
-#### 10. [Web Notification API](https://developer.mozilla.org/en-US/docs/Web/API/Notifications_API):
+##### 10. [Web Notification API](https://developer.mozilla.org/en-US/docs/Web/API/Notifications_API):
 ```javascript
 Notification.requestPermission()
   .then( permission => {
@@ -173,19 +173,19 @@ Notification.requestPermission()
   });
 ```
 
-#### 11. [Web Workers API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API):
+##### 11. [Web Workers API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API):
 ```javascript
 const worker = new Worker('worker.js');
 worker.postMessage('Hello from main script!');
 ```
 
-#### 12. [Web Intersection Observer API](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API):
+##### 12. [Web Intersection Observer API](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API):
 ```javascript
 const observer = new IntersectionObserver(entries => entries.forEach( entry => entry.isIntersecting && console.log('Element is in the viewport!') ) );
 observer.observe(document.getElementById('yourElementId'));
 ```
 
-#### 13. [Web Mutation Observer API](https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver):
+##### 13. [Web Mutation Observer API](https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver):
 ```javascript
 const observer = new MutationObserver(mutations =>
   mutations.forEach(mutation =>
@@ -198,13 +198,13 @@ const config = { attributes: true, childList: true, subtree: true };
 observer.observe(targetNode, config); // Start observing DOM changes.
 ```
 
-#### 14. [Web Pointer Lock API](https://developer.mozilla.org/en-US/docs/Web/API/Pointer_Lock_API):
+##### 14. [Web Pointer Lock API](https://developer.mozilla.org/en-US/docs/Web/API/Pointer_Lock_API):
 ```javascript
 const element = document.getElementById('yourElementId');
 element.requestPointerLock();
 ```
 
-#### 15. [Web Battery Status API](https://developer.mozilla.org/en-US/docs/Web/API/Battery_Status_API):
+##### 15. [Web Battery Status API](https://developer.mozilla.org/en-US/docs/Web/API/Battery_Status_API):
 ```javascript
 navigator.getBattery().then(battery => {
   console.log('Battery Level:', battery.level * 100 + '%');
@@ -212,7 +212,7 @@ navigator.getBattery().then(battery => {
 });
 ```
 
-#### 16. [Web Gamepad API](https://developer.mozilla.org/en-US/docs/Web/API/Gamepad_API):
+##### 16. [Web Gamepad API](https://developer.mozilla.org/en-US/docs/Web/API/Gamepad_API):
 ```javascript
 window.addEventListener("gamepadconnected", (event) => 
   console.log("Gamepad connected:", event.gamepad.id)
@@ -223,7 +223,7 @@ window.addEventListener("gamepaddisconnected", (event) =>
 );
 ```
 
-#### 17. [Web Device Orientation and Motion API](https://developer.mozilla.org/en-US/docs/Web/API/Device_orientation_events):
+##### 17. [Web Device Orientation and Motion API](https://developer.mozilla.org/en-US/docs/Web/API/Device_orientation_events):
 ```javascript
 window.addEventListener("deviceorientation", (event) => {
   console.log("Device Orientation:", event.alpha, event.beta, event.gamma);
@@ -234,7 +234,7 @@ window.addEventListener("devicemotion", (event) => {
 });
 ```
 
-#### 18. [Web Push API](https://developer.mozilla.org/en-US/docs/Web/API/Push_API):
+##### 18. [Web Push API](https://developer.mozilla.org/en-US/docs/Web/API/Push_API):
 ```javascript
 // Check for Push API support
 if ('PushManager' in window) {
@@ -247,7 +247,7 @@ if ('PushManager' in window) {
 }
 ```
 
-#### 19. [Web Payment Request API](https://developer.mozilla.org/en-US/docs/Web/API/Payment_Request_API):
+##### 19. [Web Payment Request API](https://developer.mozilla.org/en-US/docs/Web/API/Payment_Request_API):
 ```javascript
 const supportedInstruments = [{ supportedMethods: 'basic-card' }];
 const paymentDetails = { total: { label: 'Total', amount: { currency: 'USD', value: '10.00' } } };
@@ -263,14 +263,12 @@ paymentPromise.show().then(paymentResponse =>
 
 
 
-## UI/UX Design
-
-#### Figma
+### UI/UX Design
 
 - [x] [Figma Web](https://www.figma.com)
 - [x] [Figma App](https://desktop.figma.com/win/FigmaSetup.exe)
 
-Mockups:
+##### Mockups:
 - [x] [Mockup](https://www.figma.com/community/plugin/817043359134136295)
 - [x] [Mockuuups Studio](https://www.figma.com/community/plugin/786250770157843670)
 - [x] [Artboard Studio Mockups](https://www.figma.com/community/plugin/750673765607708804)
@@ -281,7 +279,7 @@ Mockups:
 - [x] [Easy Mockup](https://www.figma.com/community/plugin/1180592708021765520)
 - [x] [A Little Bit Mockup](https://www.figma.com/community/plugin/1149987037748021167)
 
-Others:
+##### Others:
 - [x] [Avatars](https://www.figma.com/community/plugin/739659977030056719)
 - [x] [EOS Icons](https://www.figma.com/community/plugin/1131638845835688020)
 - [x] [Export Images](https://www.figma.com/community/plugin/1073791321657719341)
@@ -294,7 +292,7 @@ Others:
 
 
 
-## APIs
+#### APIs
 - [x] https://github.com/marcelscruz/public-apis
 - [x] https://www.jsonapi.co/public-api
 - [x] https://any-api.com
@@ -304,7 +302,7 @@ Others:
 
 
 
-## GitHub Student Developer Pack
+### GitHub Student Developer Pack
 - [x] [Benefits](https://education.github.com/pack)
 - [x] [Apply Here](https://education.github.com/discount_requests/application)
 
@@ -313,16 +311,16 @@ Others:
 
 
 
-## Visual Studio
+### Visual Studio
 
 - [x] [Download Visual Studio Code](https://code.visualstudio.com)
 
-Themes and Icons:
+##### Themes and Icons:
 - [x] [Theme](https://marketplace.visualstudio.com/items?itemName=tal7aouy.theme)
 - [x] [Atom Material Icons](https://marketplace.visualstudio.com/items?itemName=AtomMaterial.a-file-icon-vscode)
 - [x] [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons)
 
-Extensions:
+##### Extensions:
 - [x] [Alphabetical Sorter](https://marketplace.visualstudio.com/items?itemName=ue.alphabetical-sorter)
 - [x] [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
 - [x] [Auto Complete Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-complete-tag)
@@ -345,7 +343,10 @@ Extensions:
 
 
 
-## Learning Resources
+### Resources
+- [x] [MDN Web Docs](https://developer.mozilla.org/en-US)
+- [x] [DevDocs](https://devdocs.io)
+- [x] [W3Schools](https://www.w3schools.com)
 - [x] https://github.com/tiimgreen/github-cheat-sheet
 - [x] https://github.com/microsoft/Web-Dev-For-Beginners
 - [x] https://github.com/florinpop17/app-ideas
@@ -368,18 +369,71 @@ Extensions:
 - [x] https://www.freecodecamp.org/news/tag/css
 - [x] https://www.freecodecamp.org/news/search/?query=javascript
 - [x] https://www.freecodecamp.org/news/tag/javascript
+- [x] [Hex Color Codes with Transparency](https://gist.github.com/lopspower/03fb1cc0ac9f32ef38f4)
+- [x] [CSS Filter Generator](https://codepen.io/sosuke/pen/Pjoqqp)
 
 <hr>
 
 
 
 
-### Frameworks / Toolkits:
-- [x] [Tailwind CSS](https://github.com/tailwindlabs/tailwindcss)
-- [x] [Bootstrap](https://github.com/twbs/bootstrap)
-- [x] [Font Awesome](https://github.com/FortAwesome/Font-Awesome)
+### Frameworks / Tools:
+
+##### CSS:
+- [x] [Tailwind CSS](https://tailwindcss.com/docs/installation)
+- [x] [Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/download)
+
+##### Fonts:
+- [x] [Google Fonts](https://fonts.google.com)
+- [x] [WhatTheFont](https://www.myfonts.com/pages/whatthefont)
+
+##### Icons / SVG:
+- [x] [Font Awesome](https://fontawesome.com/search?o=r&m=free)
 - [x] [Simple Icons](https://github.com/simple-icons/simple-icons)
+- [x] [Vector Logo Zone](https://www.vectorlogo.zone/logos/index.html)
+- [x] [World Vector Logo](https://worldvectorlogo.com)
+
+##### Images / Videos:
+- [x] [Unsplash](https://unsplash.com)
+- [x] [Shields.io](https://shields.io)
+
+##### Grammar:
+- [x] [Ginger Grammer Checker](https://www.gingersoftware.com/grammarcheck)
+- [x] [Quillbot Grammar Checker](https://quillbot.com/grammar-check)
+
+##### AI
+- [x] [Google Bard](https://bard.google.com/chat)
+- [x] [ChatGPT](https://chat.openai.com)
+- [x] [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot)
+
+##### Database:
 - [x] [Supabase](https://github.com/supabase/supabase)
+
+<hr>
+
+
+
+
+### Optimization:
+
+##### Images
+- [x] [postimages](https://postimages.org)
+- [x] [imgbb](https://imgbb.com)
+- [x] [tinypng](https://tinypng.com)
+
+##### Performance
+- [x] [pagespeed](https://pagespeed.web.dev)
+
+##### Analytics
+- [x] [Google Analytics](https://analytics.google.com/analytics/web)
+
+##### SEO
+- [x] [Google Search Console](https://search.google.com/search-console/welcome)
+- [x] [Bing Webmasters](https://www.bing.com/webmasters)
+
+##### Meta Tags
+- [x] [Social Share Preview](https://socialsharepreview.com)
+- [x] [MetaTags.io](https://metatags.io)
 
 <hr>
 
