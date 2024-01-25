@@ -324,7 +324,7 @@ Others
 
 
 ## GitHub Student Developer Pack
-- [x] https://education.github.com/pack
+- [x] [Apply](https://education.github.com/pack)
 
 <hr>
 
