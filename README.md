@@ -64,16 +64,15 @@ git remote add origin https://github.com/username/repository.git
 
 ## JavaScript Web APIs
 
-#### 1. Web Speech API
+#### 1. [Web Speech API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API):
 ```javascript
 const textToSpeak = "Hello There";
 const utterance = new SpeechSynthesisUtterance(textToSpeak);
 
 window.speechSynthesis.speak(utterance);
 ```
-[MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API)
 
-#### 2. Web Storage API
+#### 2. [Web Storage API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API):
 ```javascript
 // Store Data
 localStorage.setItem('key', 'value');
@@ -84,18 +83,16 @@ const storedValue = localStorage.getItem('key');
 // Remove Data
 localStorage.removeItem('key');
 ```
-[MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API)
 
-#### 3. Web Fetch API
+#### 3. [Web Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API):
 ```javascript
 fetch('http://example.com/movies.json')
   .then(response => response.json())
   .then(data => console.log(data))
   .catch(error => console.error('error:', error));
 ```
-[MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
 
-#### 4. Web Geolocation API
+#### 4. [Web Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API):
 ```javascript
 navigator.geolocation.getCurrentPosition(
   position => {
@@ -106,9 +103,8 @@ navigator.geolocation.getCurrentPosition(
   }
 );
 ```
-[MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API)
 
-#### 5. Web Canvas API
+#### 5. [Web Canvas API](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API):
 ```javascript
 const canvas = document.createElement('canvas');
 canvas.width = 200;
@@ -119,9 +115,8 @@ const ctx = canvas.getContext('2d');
 ctx.fillStyle = 'blue';
 ctx.fillRect(10, 10, 180, 80);
 ```
-[MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API)
 
-#### 6. Web Audio API
+#### 6. [Web Audio API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API):
 ```javascript
 const audioContext = new (window.AudioContext || window.webkitAudioContext)();
 const oscillator = audioContext.createOscillator();
@@ -131,9 +126,8 @@ oscillator.connect(audioContext.destination);
 oscillator.start();
 oscillator.stop(audioContext.currentTime + 1);
 ```
-[MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API)
 
-#### 7. Web Sockets API
+#### 7. [Web Sockets API](https://developer.mozilla.org/en-US/docs/Web/API/WebSocket):
 ```javascript
 const socket = new WebSocket('wss://example.com/socket');
 
@@ -141,9 +135,8 @@ socket.addEventListener('open', () => socket.send('Hello, server!'));
 socket.addEventListener('message', event => console.log('Received: ', event.data));
 socket.addEventListener('close', () => console.log('Connection closed.'));
 ```
-[MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/API/WebSocket)
 
-#### 8. Web IndexedDB API
+#### 8. [Web IndexedDB API](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API):
 ```javascript
 // Open (or create) the database
 const dbName = "InstagramPostsDB";
@@ -158,9 +151,8 @@ request.onupgradeneeded(() => {});
 // defines the actions to be taken upon successful opening of the database.
 request.onsuccess(() => {});
 ```
-[MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API)
 
-#### 9. Web File API
+#### 9. [Web File API](https://developer.mozilla.org/en-US/docs/Web/API/File_API):
 ```javascript
 <input type="file" id="imageInput" accept="image/*">
 <button onclick="uploadPost()">Upload Post</button>
@@ -172,32 +164,28 @@ request.onsuccess(() => {});
   }
 </script>
 ```
-[MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/API/File_API)
 
-#### 10. Web Notification API
+#### 10. [Web Notification API](https://developer.mozilla.org/en-US/docs/Web/API/Notifications_API):
 ```javascript
 Notification.requestPermission()
   .then( permission => {
     new Notification('Hello, World!');
   });
 ```
-[MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/API/Notifications_API)
 
-#### 11. Web Workers API
+#### 11. [Web Workers API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API):
 ```javascript
 const worker = new Worker('worker.js');
 worker.postMessage('Hello from main script!');
 ```
-[MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API)
 
-#### 12. Web Intersection Observer API
+#### 12. [Web Intersection Observer API](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API):
 ```javascript
 const observer = new IntersectionObserver(entries => entries.forEach( entry => entry.isIntersecting && console.log('Element is in the viewport!') ) );
 observer.observe(document.getElementById('yourElementId'));
 ```
-[MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API)
 
-#### 13. Web Mutation Observer API
+#### 13. [Web Mutation Observer API](https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver):
 ```javascript
 const observer = new MutationObserver(mutations =>
   mutations.forEach(mutation =>
@@ -209,25 +197,22 @@ const config = { attributes: true, childList: true, subtree: true };
 
 observer.observe(targetNode, config); // Start observing DOM changes.
 ```
-[MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver)
 
-#### 14. Web Pointer Lock API
+#### 14. [Web Pointer Lock API](https://developer.mozilla.org/en-US/docs/Web/API/Pointer_Lock_API):
 ```javascript
 const element = document.getElementById('yourElementId');
 element.requestPointerLock();
 ```
-[MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/API/Pointer_Lock_API)
 
-#### 15. Web Battery Status API
+#### 15. [Web Battery Status API](https://developer.mozilla.org/en-US/docs/Web/API/Battery_Status_API):
 ```javascript
 navigator.getBattery().then(battery => {
   console.log('Battery Level:', battery.level * 100 + '%');
   console.log('Charging:', battery.charging ? 'Yes' : 'No');
 });
 ```
-[MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/API/Battery_Status_API)
 
-#### 16. Web Gamepad API
+#### 16. [Web Gamepad API](https://developer.mozilla.org/en-US/docs/Web/API/Gamepad_API):
 ```javascript
 window.addEventListener("gamepadconnected", (event) => 
   console.log("Gamepad connected:", event.gamepad.id)
@@ -237,9 +222,8 @@ window.addEventListener("gamepaddisconnected", (event) =>
   console.log("Gamepad disconnected:", event.gamepad.id)
 );
 ```
-[MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/API/Gamepad_API)
 
-#### 17. Web Device Orientation and Motion API
+#### 17. [Web Device Orientation and Motion API](https://developer.mozilla.org/en-US/docs/Web/API/Device_orientation_events):
 ```javascript
 window.addEventListener("deviceorientation", (event) => {
   console.log("Device Orientation:", event.alpha, event.beta, event.gamma);
@@ -249,9 +233,8 @@ window.addEventListener("devicemotion", (event) => {
   console.log("Device Motion:", event.acceleration.x, event.acceleration.y, event.acceleration.z);
 });
 ```
-[MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/API/Device_orientation_events)
 
-#### 18. Web Push API
+#### 18. [Web Push API](https://developer.mozilla.org/en-US/docs/Web/API/Push_API):
 ```javascript
 // Check for Push API support
 if ('PushManager' in window) {
@@ -263,9 +246,8 @@ if ('PushManager' in window) {
   });
 }
 ```
-[MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/API/Push_API)
 
-#### 19. Web Payment Request API
+#### 19. [Web Payment Request API](https://developer.mozilla.org/en-US/docs/Web/API/Payment_Request_API):
 ```javascript
 const supportedInstruments = [{ supportedMethods: 'basic-card' }];
 const paymentDetails = { total: { label: 'Total', amount: { currency: 'USD', value: '10.00' } } };
@@ -275,7 +257,6 @@ paymentPromise.show().then(paymentResponse =>
   paymentResponse.complete('success')
 );
 ```
-[MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/API/Payment_Request_API)
 
 <hr>
 
@@ -289,7 +270,7 @@ paymentPromise.show().then(paymentResponse =>
 - [x] [Figma Web](https://www.figma.com)
 - [x] [Figma App](https://desktop.figma.com/win/FigmaSetup.exe)
 
-Mockups
+Mockups:
 - [x] [Mockup](https://www.figma.com/community/plugin/817043359134136295)
 - [x] [Mockuuups Studio](https://www.figma.com/community/plugin/786250770157843670)
 - [x] [Artboard Studio Mockups](https://www.figma.com/community/plugin/750673765607708804)
@@ -300,7 +281,7 @@ Mockups
 - [x] [Easy Mockup](https://www.figma.com/community/plugin/1180592708021765520)
 - [x] [A Little Bit Mockup](https://www.figma.com/community/plugin/1149987037748021167)
 
-Others
+Others:
 - [x] [Avatars](https://www.figma.com/community/plugin/739659977030056719)
 - [x] [EOS Icons](https://www.figma.com/community/plugin/1131638845835688020)
 - [x] [Export Images](https://www.figma.com/community/plugin/1073791321657719341)
@@ -336,9 +317,13 @@ Others
 
 - [x] [Download Visual Studio Code](https://code.visualstudio.com)
 
-Extensions
-- [x] [Alphabetical Sorter](https://marketplace.visualstudio.com/items?itemName=ue.alphabetical-sorter)
+Themes and Icons:
+- [x] [Theme](https://marketplace.visualstudio.com/items?itemName=tal7aouy.theme)
 - [x] [Atom Material Icons](https://marketplace.visualstudio.com/items?itemName=AtomMaterial.a-file-icon-vscode)
+- [x] [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons)
+
+Extensions:
+- [x] [Alphabetical Sorter](https://marketplace.visualstudio.com/items?itemName=ue.alphabetical-sorter)
 - [x] [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
 - [x] [Auto Complete Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-complete-tag)
 - [x] [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
@@ -354,8 +339,6 @@ Extensions
 - [x] [npm Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense)
 - [x] [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
 - [x] [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
-- [x] [Theme](https://marketplace.visualstudio.com/items?itemName=tal7aouy.theme)
-- [x] [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons)
 
 <hr>
 
