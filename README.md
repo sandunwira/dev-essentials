@@ -276,6 +276,8 @@ paymentPromise.show().then(paymentResponse =>
 
 - [x] [Visual Studio](https://visualstudio.microsoft.com)
 - [x] [JetBrains IDEs](https://www.jetbrains.com/ides)
+- [x] [Eclipse IDEs](https://www.eclipse.org/ide)
+- [x] [Apache NetBeans](https://netbeans.apache.org/front/main/download)
 
 ##### Online:
 
