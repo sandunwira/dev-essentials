@@ -248,11 +248,13 @@ paymentPromise.show().then(paymentResponse =>
 
 
 
-### Visual Studio:
+### IDEs and Editors:
 
-- [x] [Download Visual Studio Code](https://code.visualstudio.com)
+##### Offline:
 
-| Extensions | Themes and Icons |
+- [x] [Visual Studio Code](https://code.visualstudio.com)
+
+| VS Extensions | VS Themes and Icons |
 | --- | --- |
 | [Alphabetical Sorter](https://marketplace.visualstudio.com/items?itemName=ue.alphabetical-sorter) | [Theme](https://marketplace.visualstudio.com/items?itemName=tal7aouy.theme) |
 | [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag) | [Atom Material Icons](https://marketplace.visualstudio.com/items?itemName=AtomMaterial.a-file-icon-vscode) |
@@ -272,6 +274,24 @@ paymentPromise.show().then(paymentResponse =>
 | [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense) | ... |
 | [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss) | ... |
 
+- [x] [Visual Studio](https://visualstudio.microsoft.com)
+- [x] [JetBrains IDEs](https://www.jetbrains.com/ides)
+
+##### Online:
+
+- [x] [Replit](https://replit.com)
+- [x] [Codepen](https://codepen.io)
+- [x] [JS Fiddle](https://jsfiddle.net)
+- [x] [Heroku](https://www.heroku.com)
+- [x] [Glitch](https://glitch.com)
+- [x] [CodeSandbox](https://codesandbox.io)
+- [x] [PythonAnywhere](https://www.pythonanywhere.com)
+- [x] [Online Python](https://www.online-python.com)
+- [x] [GDB Online Debugger](https://www.onlinegdb.com)
+- [x] [Programiz](https://www.programiz.com)
+- [x] [W3Schools TryIt Editor](https://www.w3schools.com/html/tryit.asp?filename=tryhtml_default)
+- [x] [OneCompiler](https://onecompiler.com)
+
 <hr>
 
 
@@ -290,6 +310,7 @@ paymentPromise.show().then(paymentResponse =>
 | [CSS Tricks](https://css-tricks.com) | [freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) | ... | [JavaScript](https://www.freecodecamp.org/news/tag/javascript) | ... | ... |
 | [freeCodeCamp](https://www.freecodecamp.org) | [joshbuchea/HEAD](https://github.com/joshbuchea/HEAD) | ... | ... | ... | ... |
 | [CodePen](https://codepen.io) | [phuocng/html-dom](https://github.com/phuocng/html-dom) | ... | ... | ... | ... |
+| [Dev.to](https://dev.to) | ... | ... | ... | ... | ... |
 
 <hr>
 
