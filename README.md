@@ -299,6 +299,19 @@ paymentPromise.show().then(paymentResponse =>
 
 
 
+### Environments and Package Managers:
+
+- [x] [Node.js](https://nodejs.org)
+- [x] [npm](https://www.npmjs.com)
+- [x] [Python](https://www.python.org)
+- [x] [pip](https://pypi.org/project/pip)
+- [x] [pyPI](https://pypi.org)
+
+<hr>
+
+
+
+
 ### Resources:
 
 | Main | GitHub | GeeksforGeeks | FreeCodeCamp | W3Schools | Others |
