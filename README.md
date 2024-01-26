@@ -217,7 +217,7 @@ paymentPromise.show().then(paymentResponse =>
 
 ### UI/UX Design:
 
-- [x] Figma [Web](https://www.figma.com) | [App](https://desktop.figma.com/win/FigmaSetup.exe)
+- [x] Figma - [Web](https://www.figma.com) | [App](https://desktop.figma.com/win/FigmaSetup.exe)
 
 | Mockups | 3D | Widgets | Grid Layout | Typography | Accessibility | Animation | Others |
 | --- | --- | --- | --- | --- | --- | --- | --- |
