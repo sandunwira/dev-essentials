@@ -322,6 +322,7 @@ paymentPromise.show().then(paymentResponse =>
 | [freeCodeCamp](https://www.freecodecamp.org) | [joshbuchea/HEAD](https://github.com/joshbuchea/HEAD) | ... | ... | ... | ... |
 | [CodePen](https://codepen.io) | [phuocng/html-dom](https://github.com/phuocng/html-dom) | ... | ... | ... | ... |
 | [Dev.to](https://dev.to) | ... | ... | ... | ... | ... |
+| [Tutorialspoint](https://www.tutorialspoint.com) | ... | ... | ... | ... | ... |
 
 <hr>
 
