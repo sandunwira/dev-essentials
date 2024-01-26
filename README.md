@@ -369,12 +369,12 @@ paymentPromise.show().then(paymentResponse =>
 | CSS | Fonts | Icons / SVG | Images / Videos | Grammar | AI | Database |
 | --- | --- | --- | --- | --- | --- | --- |
 | [Tailwind CSS](https://tailwindcss.com) | [Google Fonts](https://fonts.google.com) | [Font Awesome](https://fontawesome.com/search?o=r&m=free) | [Unsplash](https://unsplash.com) | [Ginger Grammer Checker](https://www.gingersoftware.com/grammarcheck) | [Google Bard](https://bard.google.com/chat) | [Supabase](https://github.com/supabase/supabase) |
-| [Bootstrap](https://getbootstrap.com/docs/5.1/getting-started/introduction) | [WhatTheFont](https://www.myfonts.com/pages/whatthefont) | [Simple Icons](https://github.com/simple-icons/simple-icons) | [Freepik](https://www.freepik.com) | [Quillbot Grammar Checker](https://quillbot.com/grammar-check) | [ChatGPT](https://chat.openai.com) | ... |
-| [CSS Loaders](https://css-loaders.com) | ... | [IconMonstr](https://iconmonstr.com) | [Shields.io](https://shields.io) | ... | [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot) | ... |
-| ... | ... | [Icons8](https://icons8.com) | [Mesh Gradient](https://meshgradient.in) | ... | [Kive.ai](https://kive.ai) | ... |
-| ... | ... | [World Vector Logo](https://worldvectorlogo.com) | ... | ... | [tl;dv](https://tldv.io) | ... |
-| ... | ... | [Vector Logo Zone](https://www.vectorlogo.zone/logos/index.html) | ... | ... | [Playground.ai](https://playgroundai.com) | ... |
-| ... | ... | ... | ... | ... | [Beautiful.ai](https://www.beautiful.ai) | ... |
+| [Bootstrap](https://getbootstrap.com/docs/5.1/getting-started/introduction) | [WhatTheFont](https://www.myfonts.com/pages/whatthefont) | [Simple Icons](https://github.com/simple-icons/simple-icons) | [Freepik](https://www.freepik.com) | [Quillbot Grammar Checker](https://quillbot.com/grammar-check) | [ChatGPT](https://chat.openai.com) | [MongoDB](https://www.mongodb.com) |
+| [CSS Loaders](https://css-loaders.com) | ... | [IconMonstr](https://iconmonstr.com) | [Shields.io](https://shields.io) | ... | [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot) | [AWS](https://aws.amazon.com/products/databases) |
+| ... | ... | [Icons8](https://icons8.com) | [Mesh Gradient](https://meshgradient.in) | ... | [Kive.ai](https://kive.ai) | [Microsoft Azure](https://azure.microsoft.com/en-us/products/#databases) |
+| ... | ... | [World Vector Logo](https://worldvectorlogo.com) | ... | ... | [tl;dv](https://tldv.io) | [Google Cloud](https://cloud.google.com/products/databases) |
+| ... | ... | [Vector Logo Zone](https://www.vectorlogo.zone/logos/index.html) | ... | ... | [Playground.ai](https://playgroundai.com) | [IBM](https://www.ibm.com/database) |
+| ... | ... | ... | ... | ... | [Beautiful.ai](https://www.beautiful.ai) | [DigitalOcean](https://www.digitalocean.com/products/managed-databases) |
 | ... | ... | ... | ... | ... | [Generated Photos](https://generated.photos) | ... |
 | ... | ... | ... | ... | ... | [Leonardo.ai](https://app.leonardo.ai) | ... |
 | ... | ... | ... | ... | ... | [Bing Image Creator](https://www.bing.com/images/create) | ... |
