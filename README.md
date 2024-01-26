@@ -250,9 +250,22 @@ paymentPromise.show().then(paymentResponse =>
 
 ### IDEs and Editors:
 
-##### Offline:
+| Online | Offline |
+| --- | --- |
+| [Replit](https://replit.com) | [Visual Studio Code](https://code.visualstudio.com) |
+| [Codepen](https://codepen.io) | [Visual Studio](https://visualstudio.microsoft.com) |
+| [JS Fiddle](https://jsfiddle.net) | [JetBrains IDEs](https://www.jetbrains.com/ides) |
+| [Heroku](https://www.heroku.com) | [Eclipse IDEs](https://www.eclipse.org/ide) |
+| [Glitch](https://glitch.com) | [Apache NetBeans](https://netbeans.apache.org/front/main/download) |
+| [CodeSandbox](https://codesandbox.io) | ... |
+| [PythonAnywhere](https://www.pythonanywhere.com) | ... |
+| [Online Python](https://www.online-python.com) | ... |
+| [GDB Online Debugger](https://www.onlinegdb.com) | ... |
+| [Programiz](https://www.programiz.com) | ... |
+| [W3Schools TryIt Editor](https://www.w3schools.com/html/tryit.asp?filename=tryhtml_default) | ... |
+| [OneCompiler](https://onecompiler.com) | ... |
 
-- [x] [Visual Studio Code](https://code.visualstudio.com)
+##### Visual Studio Code Extensions:
 
 | VS Extensions | VS Themes and Icons |
 | --- | --- |
@@ -274,25 +287,8 @@ paymentPromise.show().then(paymentResponse =>
 | [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense) | ... |
 | [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss) | ... |
 
-- [x] [Visual Studio](https://visualstudio.microsoft.com)
-- [x] [JetBrains IDEs](https://www.jetbrains.com/ides)
-- [x] [Eclipse IDEs](https://www.eclipse.org/ide)
-- [x] [Apache NetBeans](https://netbeans.apache.org/front/main/download)
 
-##### Online:
 
-- [x] [Replit](https://replit.com)
-- [x] [Codepen](https://codepen.io)
-- [x] [JS Fiddle](https://jsfiddle.net)
-- [x] [Heroku](https://www.heroku.com)
-- [x] [Glitch](https://glitch.com)
-- [x] [CodeSandbox](https://codesandbox.io)
-- [x] [PythonAnywhere](https://www.pythonanywhere.com)
-- [x] [Online Python](https://www.online-python.com)
-- [x] [GDB Online Debugger](https://www.onlinegdb.com)
-- [x] [Programiz](https://www.programiz.com)
-- [x] [W3Schools TryIt Editor](https://www.w3schools.com/html/tryit.asp?filename=tryhtml_default)
-- [x] [OneCompiler](https://onecompiler.com)
 
 <hr>
 
