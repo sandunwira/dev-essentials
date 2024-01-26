@@ -8,302 +8,205 @@
 
 ### JavaScript Web APIs:
 
-- <details>
-  <summary>1. Web Speech API</summary>
-
-  ```javascript
-  const textToSpeak = "Hello There";
-  const utterance = new SpeechSynthesisUtterance(textToSpeak);
-
-  window.speechSynthesis.speak(utterance);
-  ```
-
-  [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API)
-</details>
-
-- <details>
-  <summary>2. Web Storage API</summary>
-
-  ```javascript
-  // Store Data
-  localStorage.setItem('key', 'value');
-
-  // Retrieve Data
-  const storedValue = localStorage.getItem('key');
-
-  // Remove Data
-  localStorage.removeItem('key');
-  ```
-
-  [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API)
-</details>
-
-- <details>
-  <summary>3. Web Fetch API</summary>
-
-  ```javascript
-  fetch('http://example.com/movies.json')
-    .then(response => response.json())
-    .then(data => console.log(data))
-    .catch(error => console.error('error:', error));
-  ```
-
-  [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
-</details>
-
-- <details>
-  <summary>4. Web Geolocation API</summary>
-
-  ```javascript
-  navigator.geolocation.getCurrentPosition(
-    position => {
-      console.log(`Latitude: ${position.coords.latitude}, Longitude: ${position.coords.longitude}`);
-    },
-    error => {
-      console.error("Error getting location:", error.message);
-    }
-  );
-  ```
-
-  [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API)
-</details>
-
-- <details>
-  <summary>5. Web Canvas API</summary>
-
-  ```javascript
-  const canvas = document.createElement('canvas');
-  canvas.width = 200;
-  canvas.height = 100;
-  document.body.appendChild(canvas);
-
-  const ctx = canvas.getContext('2d');
-  ctx.fillStyle = 'blue';
-  ctx.fillRect(10, 10, 180, 80);
-  ```
-
-  [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API)
-</details>
-
-- <details>
-  <summary>6. Web Audio API</summary>
-
-  ```javascript
-  const audioContext = new (window.AudioContext || window.webkitAudioContext)();
-  const oscillator = audioContext.createOscillator();
-
-  oscillator.frequency.setValueAtTime(440, audioContext.currentTime);
-  oscillator.connect(audioContext.destination);
-  oscillator.start();
-  oscillator.stop(audioContext.currentTime + 1);
-  ```
-
-  [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API)
-</details>
-
-- <details>
-  <summary>7. Web Sockets API</summary>
-
-  ```javascript
-  const socket = new WebSocket('wss://example.com/socket');
-
-  socket.addEventListener('open', () => socket.send('Hello, server!'));
-  socket.addEventListener('message', event => console.log('Received: ', event.data));
-  socket.addEventListener('close', () => console.log('Connection closed.'));
-  ```
-
-  [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/API/WebSocket)
-</details>
-
-- <details>
-  <summary>8. Web IndexedDB API</summary>
-  
-    ```javascript
-    // Open (or create) the database
-    const dbName = "InstagramPostsDB";
-    const dbVersion = 1;
-
-    const request = indexedDB.open(dbName, dbVersion);
-
-    // handles errors that may occur during the database opening process.
-    request.onerror(() => {});
-    // specifies the actions to be taken when the database structure is being upgraded.
-    request.onupgradeneeded(() => {});
-    // defines the actions to be taken upon successful opening of the database.
-    request.onsuccess(() => {});
-    ```
-
-  [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API)
-</details>
-
-- <details>
-  <summary>9. Web Clipboard API</summary>
-
-  ```javascript
-  navigator.clipboard.writeText('Hello, World!').then(() => {
-    console.log('Text copied to clipboard.');
-  });
-  ```
-
-  [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/API/Clipboard_API)
-</details>
-
-- <details>
-  <summary>10. Web File API</summary>
-
-  ```javascript
-  <input type="file" id="imageInput" accept="image/*">
-  <button onclick="uploadPost()">Upload Post</button>
-
-  <script>
-    function uploadPost() {
-      const file = document.getElementById('imageInput').files[0];
-      console.log('Selected file:', file);
-    }
-  </script>
-  ```
-
-  [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/API/File_API)
-</details>
-
-- <details>
-  <summary>11. Web Notifications API</summary>
-
-  ```javascript
-  Notification.requestPermission()
-    .then( permission => {
-      new Notification('Hello, World!');
-    });
-  ```
-
-  [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/API/Notifications_API)
-</details>
-
-- <details>
-  <summary>12. Web Workers API</summary>
-
-  ```javascript
-  const worker = new Worker('worker.js');
-  worker.postMessage('Hello from main script!');
-  ```
-
-  [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API)
-</details>
-
-- <details>
-  <summary>13. Web Intersection Observer API</summary>
-
-  ```javascript
-  const observer = new IntersectionObserver(entries => entries.forEach( entry => entry.isIntersecting && console.log('Element is in the viewport!') ) );
-  observer.observe(document.getElementById('yourElementId'));
-  ```
-
-  [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API)
-</details>
-
-- <details>
-  <summary>14. Web Mutation Observer API</summary>
-
-  ```javascript
-  const observer = new MutationObserver(mutations => mutations.forEach(mutation => console.log('DOM change detected:', mutation)));
-  const targetNode = document.getElementById('yourElementId');
-  const config = { attributes: true, childList: true, subtree: true };
-
-  observer.observe(targetNode, config); // Start observing DOM changes.
-  ```
-
-  [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver)
-</details>
-
-- <details>
-  <summary>15. Web Pointer Lock API</summary>
-
-  ```javascript
-  const element = document.getElementById('yourElementId');
-  element.requestPointerLock();
-  ```
-
-  [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/API/Pointer_Lock_API)
-</details>
-
-- <details>
-  <summary>16. Web Battery Status API</summary>
-
-  ```javascript
-  navigator.getBattery().then(battery => {
-    console.log('Battery Level:', battery.level * 100 + '%');
-    console.log('Charging:', battery.charging ? 'Yes' : 'No');
-  });
-  ```
-
-  [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/API/Battery_Status_API)
-</details>
-
-- <details>
-  <summary>17. Web Gamepad API</summary>
-
-  ```javascript
-  window.addEventListener("gamepadconnected", (event) => 
-    console.log("Gamepad connected:", event.gamepad.id)
-  );
-
-  window.addEventListener("gamepaddisconnected", (event) => 
-    console.log("Gamepad disconnected:", event.gamepad.id)
-  );
-  ```
-
-  [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/API/Gamepad_API)
-</details>
-
-- <details>
-  <summary>18. Web Device Orientation and Motion API</summary>
-
-  ```javascript
-  window.addEventListener("deviceorientation", (event) => {
-    console.log("Device Orientation:", event.alpha, event.beta, event.gamma);
-  });
-
-  window.addEventListener("devicemotion", (event) => {
-    console.log("Device Motion:", event.acceleration.x, event.acceleration.y, event.acceleration.z);
-  });
-  ```
-
-  [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/API/Device_orientation_events)
-</details>
-
-- <details>
-  <summary>19. Web Push API</summary>
-
-  ```javascript
-  // Check for Push API support
-  if ('PushManager' in window) {
-    // Request notification permission
-    Notification.requestPermission().then(permission => {
-      if (permission === 'granted') {
-        // Subscription logic goes here
-      }
-    });
+##### 1. [Web Speech API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API):
+```javascript
+const textToSpeak = "Hello There";
+const utterance = new SpeechSynthesisUtterance(textToSpeak);
+
+window.speechSynthesis.speak(utterance);
+```
+
+##### 2. [Web Storage API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API):
+```javascript
+// Store Data
+localStorage.setItem('key', 'value');
+
+// Retrieve Data
+const storedValue = localStorage.getItem('key');
+
+// Remove Data
+localStorage.removeItem('key');
+```
+
+##### 3. [Web Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API):
+```javascript
+fetch('http://example.com/movies.json')
+  .then(response => response.json())
+  .then(data => console.log(data))
+  .catch(error => console.error('error:', error));
+```
+
+##### 4. [Web Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API):
+```javascript
+navigator.geolocation.getCurrentPosition(
+  position => {
+    console.log(`Latitude: ${position.coords.latitude}, Longitude: ${position.coords.longitude}`);
+  },
+  error => {
+    console.error("Error getting location:", error.message);
   }
-  ```
+);
+```
 
-  [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/API/Push_API)
-</details>
+##### 5. [Web Canvas API](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API):
+```javascript
+const canvas = document.createElement('canvas');
+canvas.width = 200;
+canvas.height = 100;
+document.body.appendChild(canvas);
 
-- <details>
-  <summary>20. Web Payment Request API</summary>
+const ctx = canvas.getContext('2d');
+ctx.fillStyle = 'blue';
+ctx.fillRect(10, 10, 180, 80);
+```
 
-  ```javascript
-  const supportedInstruments = [{ supportedMethods: 'basic-card' }];
-  const paymentDetails = { total: { label: 'Total', amount: { currency: 'USD', value: '10.00' } } };
-  const paymentPromise = new PaymentRequest(supportedInstruments, paymentDetails);
+##### 6. [Web Audio API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API):
+```javascript
+const audioContext = new (window.AudioContext || window.webkitAudioContext)();
+const oscillator = audioContext.createOscillator();
 
-  paymentPromise.show().then(paymentResponse =>
-    paymentResponse.complete('success')
-  );
-  ```
+oscillator.frequency.setValueAtTime(440, audioContext.currentTime);
+oscillator.connect(audioContext.destination);
+oscillator.start();
+oscillator.stop(audioContext.currentTime + 1);
+```
 
-  [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/API/Payment_Request_API)
-</details>
+##### 7. [Web Sockets API](https://developer.mozilla.org/en-US/docs/Web/API/WebSocket):
+```javascript
+const socket = new WebSocket('wss://example.com/socket');
+
+socket.addEventListener('open', () => socket.send('Hello, server!'));
+socket.addEventListener('message', event => console.log('Received: ', event.data));
+socket.addEventListener('close', () => console.log('Connection closed.'));
+```
+
+##### 8. [Web IndexedDB API](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API):
+```javascript
+// Open (or create) the database
+const dbName = "InstagramPostsDB";
+const dbVersion = 1;
+
+const request = indexedDB.open(dbName, dbVersion);
+
+// handles errors that may occur during the database opening process.
+request.onerror(() => {});
+// specifies the actions to be taken when the database structure is being upgraded.
+request.onupgradeneeded(() => {});
+// defines the actions to be taken upon successful opening of the database.
+request.onsuccess(() => {});
+```
+
+##### 9. [Web Clipboard API](https://developer.mozilla.org/en-US/docs/Web/API/Clipboard_API):
+```javascript
+navigator.clipboard.writeText('Hello, World!');
+navigator.clipboard.readText().then(text => console.log('Clipboard text:', text));
+```
+
+##### 10. [Web File API](https://developer.mozilla.org/en-US/docs/Web/API/File_API):
+```javascript
+<input type="file" id="imageInput" accept="image/*">
+<button onclick="uploadPost()">Upload Post</button>
+
+<script>
+  function uploadPost() {
+    const file = document.getElementById('imageInput').files[0];
+    console.log('Selected file:', file);
+  }
+</script>
+```
+
+##### 11. [Web Notification API](https://developer.mozilla.org/en-US/docs/Web/API/Notifications_API):
+```javascript
+Notification.requestPermission()
+  .then( permission => {
+    new Notification('Hello, World!');
+  });
+```
+
+##### 12. [Web Workers API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API):
+```javascript
+const worker = new Worker('worker.js');
+worker.postMessage('Hello from main script!');
+```
+
+##### 13. [Web Intersection Observer API](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API):
+```javascript
+const observer = new IntersectionObserver(entries => entries.forEach( entry => entry.isIntersecting && console.log('Element is in the viewport!') ) );
+observer.observe(document.getElementById('yourElementId'));
+```
+
+##### 14. [Web Mutation Observer API](https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver):
+```javascript
+const observer = new MutationObserver(mutations =>
+  mutations.forEach(mutation =>
+    console.log('DOM change detected:', mutation)
+  )
+);
+const targetNode = document.getElementById('yourElementId');
+const config = { attributes: true, childList: true, subtree: true };
+
+observer.observe(targetNode, config); // Start observing DOM changes.
+```
+
+##### 15. [Web Pointer Lock API](https://developer.mozilla.org/en-US/docs/Web/API/Pointer_Lock_API):
+```javascript
+const element = document.getElementById('yourElementId');
+element.requestPointerLock();
+```
+
+##### 16. [Web Battery Status API](https://developer.mozilla.org/en-US/docs/Web/API/Battery_Status_API):
+```javascript
+navigator.getBattery().then(battery => {
+  console.log('Battery Level:', battery.level * 100 + '%');
+  console.log('Charging:', battery.charging ? 'Yes' : 'No');
+});
+```
+
+##### 17. [Web Gamepad API](https://developer.mozilla.org/en-US/docs/Web/API/Gamepad_API):
+```javascript
+window.addEventListener("gamepadconnected", (event) => 
+  console.log("Gamepad connected:", event.gamepad.id)
+);
+
+window.addEventListener("gamepaddisconnected", (event) => 
+  console.log("Gamepad disconnected:", event.gamepad.id)
+);
+```
+
+##### 18. [Web Device Orientation and Motion API](https://developer.mozilla.org/en-US/docs/Web/API/Device_orientation_events):
+```javascript
+window.addEventListener("deviceorientation", (event) => {
+  console.log("Device Orientation:", event.alpha, event.beta, event.gamma);
+});
+
+window.addEventListener("devicemotion", (event) => {
+  console.log("Device Motion:", event.acceleration.x, event.acceleration.y, event.acceleration.z);
+});
+```
+
+##### 19. [Web Push API](https://developer.mozilla.org/en-US/docs/Web/API/Push_API):
+```javascript
+// Check for Push API support
+if ('PushManager' in window) {
+  // Request notification permission
+  Notification.requestPermission().then(permission => {
+    if (permission === 'granted') {
+      // Subscription logic goes here
+    }
+  });
+}
+```
+
+##### 20. [Web Payment Request API](https://developer.mozilla.org/en-US/docs/Web/API/Payment_Request_API):
+```javascript
+const supportedInstruments = [{ supportedMethods: 'basic-card' }];
+const paymentDetails = { total: { label: 'Total', amount: { currency: 'USD', value: '10.00' } } };
+const paymentPromise = new PaymentRequest(supportedInstruments, paymentDetails);
+
+paymentPromise.show().then(paymentResponse =>
+  paymentResponse.complete('success')
+);
+```
 
 [More Web APIs](https://developer.mozilla.org/en-US/docs/Web/API)
 
